@@ -477,6 +477,59 @@
           "duration_secs": 111
         }
       ]
+    },
+    {
+      "title": "Cà Phê Cùng Tony",
+      "author": "Tony Buổi Sáng",
+      "slug": "ca-phe-cung-tony",
+      "cover": "assets/covers/ca-phe-cung-tony.jpg",
+      "category": "Động lực",
+      "source": "Cà Phê Cùng Tony – Tony Buổi Sáng (bản tóm tắt & diễn giải: Boss)",
+      "description": "Những bài học đắt giá cho người trẻ từ Tony Buổi Sáng: sống có lý tưởng, đừng than hãy làm, đọc sách và tiếng Anh, chọn bạn tốt, làm ăn tử tế và khát vọng lớn. Bản tóm tắt & diễn giải tiếng Việt, mỗi chương khoảng 2 phút — nghe vừa đủ một chuyến xe.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Sống phải có lý tưởng",
+          "file": "audio/ca-phe-cung-tony/chuong-1-ly-tuong.mp3",
+          "script": "content/ca-phe-cung-tony/chuong-1-ly-tuong.txt",
+          "duration_secs": 91
+        },
+        {
+          "n": 2,
+          "title": "Đừng than, hãy làm",
+          "file": "audio/ca-phe-cung-tony/chuong-2-dung-than.mp3",
+          "script": "content/ca-phe-cung-tony/chuong-2-dung-than.txt",
+          "duration_secs": 103
+        },
+        {
+          "n": 3,
+          "title": "Hai vũ khí của người trẻ",
+          "file": "audio/ca-phe-cung-tony/chuong-3-sach-tieng-anh.mp3",
+          "script": "content/ca-phe-cung-tony/chuong-3-sach-tieng-anh.txt",
+          "duration_secs": 99
+        },
+        {
+          "n": 4,
+          "title": "Chọn bạn mà chơi",
+          "file": "audio/ca-phe-cung-tony/chuong-4-chon-ban.mp3",
+          "script": "content/ca-phe-cung-tony/chuong-4-chon-ban.txt",
+          "duration_secs": 101
+        },
+        {
+          "n": 5,
+          "title": "Làm ăn tử tế, dám khởi nghiệp",
+          "file": "audio/ca-phe-cung-tony/chuong-5-tu-te-khoi-nghiep.mp3",
+          "script": "content/ca-phe-cung-tony/chuong-5-tu-te-khoi-nghiep.txt",
+          "duration_secs": 99
+        },
+        {
+          "n": 6,
+          "title": "Khát vọng lớn",
+          "file": "audio/ca-phe-cung-tony/chuong-6-khat-vong.mp3",
+          "script": "content/ca-phe-cung-tony/chuong-6-khat-vong.txt",
+          "duration_secs": 99
+        }
+      ]
     }
   ]
 }
