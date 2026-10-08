@@ -1,429 +1,482 @@
 {
- "books": [
-  {
-   "author": "Napoleon Hill",
-   "category": "Động lực",
-   "chapters": [
+  "books": [
     {
-     "duration_secs": 175,
-     "file": "audio/nghi-giau-lam-giau/chuong-1-khat-vong.mp3",
-     "n": 1,
-     "title": "Khát vọng cháy bỏng",
-     "script": "content/nghi-giau-lam-giau/chuong-1-khat-vong.txt"
+      "author": "Napoleon Hill",
+      "category": "Động lực",
+      "chapters": [
+        {
+          "duration_secs": 175,
+          "file": "audio/nghi-giau-lam-giau/chuong-1-khat-vong.mp3",
+          "n": 1,
+          "title": "Khát vọng cháy bỏng",
+          "script": "content/nghi-giau-lam-giau/chuong-1-khat-vong.txt"
+        },
+        {
+          "duration_secs": 157,
+          "file": "audio/nghi-giau-lam-giau/chuong-2-niem-tin.mp3",
+          "n": 2,
+          "title": "Niềm tin và Tự kỷ ám thị",
+          "script": "content/nghi-giau-lam-giau/chuong-2-niem-tin.txt"
+        },
+        {
+          "duration_secs": 155,
+          "file": "audio/nghi-giau-lam-giau/chuong-3-kien-thuc.mp3",
+          "n": 3,
+          "title": "Kiến thức chuyên môn và Trí tưởng tượng",
+          "script": "content/nghi-giau-lam-giau/chuong-3-kien-thuc.txt"
+        },
+        {
+          "duration_secs": 157,
+          "file": "audio/nghi-giau-lam-giau/chuong-4-kien-tri.mp3",
+          "n": 4,
+          "title": "Kế hoạch có tổ chức, Quyết đoán và Kiên trì",
+          "script": "content/nghi-giau-lam-giau/chuong-4-kien-tri.txt"
+        },
+        {
+          "duration_secs": 149,
+          "file": "audio/nghi-giau-lam-giau/chuong-5-tiem-thuc.mp3",
+          "n": 5,
+          "title": "Nhóm trí tuệ ưu tú, Tiềm thức và Não bộ",
+          "script": "content/nghi-giau-lam-giau/chuong-5-tiem-thuc.txt"
+        },
+        {
+          "duration_secs": 169,
+          "file": "audio/nghi-giau-lam-giau/chuong-6-noi-so.mp3",
+          "n": 6,
+          "title": "Giác quan thứ sáu và Sáu bóng ma của nỗi sợ hãi",
+          "script": "content/nghi-giau-lam-giau/chuong-6-noi-so.txt"
+        }
+      ],
+      "cover": "assets/covers/nghi-giau-lam-giau.jpg",
+      "description": "Triết lý làm giàu kinh điển qua 13 nguyên tắc thành công: khát vọng cháy bỏng, niềm tin, kiến thức chuyên môn, kiên trì và sức mạnh tiềm thức. Bản tóm tắt & diễn giải tiếng Việt, mỗi chương khoảng 3 phút — nghe vừa đủ một chuyến xe.",
+      "slug": "nghi-giau-lam-giau",
+      "source": "Think and Grow Rich – Napoleon Hill",
+      "title": "Nghĩ Giàu Làm Giàu"
     },
     {
-     "duration_secs": 157,
-     "file": "audio/nghi-giau-lam-giau/chuong-2-niem-tin.mp3",
-     "n": 2,
-     "title": "Niềm tin và Tự kỷ ám thị",
-     "script": "content/nghi-giau-lam-giau/chuong-2-niem-tin.txt"
+      "author": "Robert Kiyosaki",
+      "category": "Kinh doanh",
+      "chapters": [
+        {
+          "duration_secs": 144,
+          "file": "audio/cha-giau-cha-ngheo/chuong-1-bai-hoc-1.mp3",
+          "n": 1,
+          "title": "Người giàu không làm việc vì tiền",
+          "script": "content/cha-giau-cha-ngheo/chuong-1-bai-hoc-1.txt"
+        },
+        {
+          "duration_secs": 130,
+          "file": "audio/cha-giau-cha-ngheo/chuong-2-tai-san.mp3",
+          "n": 2,
+          "title": "Tài sản và tiêu sản",
+          "script": "content/cha-giau-cha-ngheo/chuong-2-tai-san.txt"
+        },
+        {
+          "duration_secs": 127,
+          "file": "audio/cha-giau-cha-ngheo/chuong-3-kinh-doanh.mp3",
+          "n": 3,
+          "title": "Hãy lo việc kinh doanh của chính mình",
+          "script": "content/cha-giau-cha-ngheo/chuong-3-kinh-doanh.txt"
+        },
+        {
+          "duration_secs": 125,
+          "file": "audio/cha-giau-cha-ngheo/chuong-4-thue.mp3",
+          "n": 4,
+          "title": "Thuế, doanh nghiệp và trí thông minh tài chính",
+          "script": "content/cha-giau-cha-ngheo/chuong-4-thue.txt"
+        },
+        {
+          "duration_secs": 117,
+          "file": "audio/cha-giau-cha-ngheo/chuong-5-tao-tien.mp3",
+          "n": 5,
+          "title": "Người giàu tự tạo ra tiền",
+          "script": "content/cha-giau-cha-ngheo/chuong-5-tao-tien.txt"
+        },
+        {
+          "duration_secs": 145,
+          "file": "audio/cha-giau-cha-ngheo/chuong-6-lam-viec-de-hoc.mp3",
+          "n": 6,
+          "title": "Làm việc để học và năm trở ngại tâm lý",
+          "script": "content/cha-giau-cha-ngheo/chuong-6-lam-viec-de-hoc.txt"
+        }
+      ],
+      "cover": "assets/covers/cha-giau-cha-ngheo.jpg",
+      "description": "Hai người cha, hai tư duy tiền bạc trái ngược: phân biệt tài sản – tiêu sản, lo việc kinh doanh của chính mình, và trí thông minh tài chính giúp người giàu tự tạo ra tiền. Bản tóm tắt & diễn giải tiếng Việt, mỗi chương khoảng 2–3 phút.",
+      "slug": "cha-giau-cha-ngheo",
+      "source": "Rich Dad Poor Dad – Robert Kiyosaki",
+      "title": "Cha Giàu Cha Nghèo"
     },
     {
-     "duration_secs": 155,
-     "file": "audio/nghi-giau-lam-giau/chuong-3-kien-thuc.mp3",
-     "n": 3,
-     "title": "Kiến thức chuyên môn và Trí tưởng tượng",
-     "script": "content/nghi-giau-lam-giau/chuong-3-kien-thuc.txt"
+      "author": "Dale Carnegie",
+      "category": "Kỹ năng",
+      "chapters": [
+        {
+          "duration_secs": 176,
+          "file": "audio/dac-nhan-tam/chuong-1-dung-chi-trich.mp3",
+          "n": 1,
+          "title": "Đừng chỉ trích, oán trách, than phiền",
+          "script": "content/dac-nhan-tam/chuong-1-dung-chi-trich.txt"
+        },
+        {
+          "duration_secs": 150,
+          "file": "audio/dac-nhan-tam/chuong-2-khen-ngoi-chan-thanh.mp3",
+          "n": 2,
+          "title": "Biết khen ngợi chân thành",
+          "script": "content/dac-nhan-tam/chuong-2-khen-ngoi-chan-thanh.txt"
+        },
+        {
+          "duration_secs": 161,
+          "file": "audio/dac-nhan-tam/chuong-3-khoi-goi-khat-vong.mp3",
+          "n": 3,
+          "title": "Khơi gợi khát vọng ở người khác",
+          "script": "content/dac-nhan-tam/chuong-3-khoi-goi-khat-vong.txt"
+        },
+        {
+          "duration_secs": 169,
+          "file": "audio/dac-nhan-tam/chuong-4-lang-nghe.mp3",
+          "n": 4,
+          "title": "Lắng nghe và nói điều người khác quan tâm",
+          "script": "content/dac-nhan-tam/chuong-4-lang-nghe.txt"
+        },
+        {
+          "duration_secs": 165,
+          "file": "audio/dac-nhan-tam/chuong-5-cam-thay-quan-trong.mp3",
+          "n": 5,
+          "title": "Khiến người khác thấy mình quan trọng",
+          "script": "content/dac-nhan-tam/chuong-5-cam-thay-quan-trong.txt"
+        },
+        {
+          "duration_secs": 185,
+          "file": "audio/dac-nhan-tam/chuong-6-dan-dat-thay-doi.mp3",
+          "n": 6,
+          "title": "Dẫn dắt thay đổi không gây phản kháng",
+          "script": "content/dac-nhan-tam/chuong-6-dan-dat-thay-doi.txt"
+        }
+      ],
+      "cover": "assets/covers/dac-nhan-tam.jpg",
+      "description": "Nghệ thuật đối nhân xử thế kinh điển: đừng chỉ trích, khen ngợi chân thành, lắng nghe và dẫn dắt người khác thay đổi mà không gây phản kháng. Bản tóm tắt & diễn giải tiếng Việt.",
+      "slug": "dac-nhan-tam",
+      "source": "How to Win Friends and Influence People – Dale Carnegie",
+      "title": "Đắc Nhân Tâm"
     },
     {
-     "duration_secs": 157,
-     "file": "audio/nghi-giau-lam-giau/chuong-4-kien-tri.mp3",
-     "n": 4,
-     "title": "Kế hoạch có tổ chức, Quyết đoán và Kiên trì",
-     "script": "content/nghi-giau-lam-giau/chuong-4-kien-tri.txt"
+      "author": "James Clear",
+      "category": "Kỹ năng",
+      "chapters": [
+        {
+          "duration_secs": 177,
+          "file": "audio/atomic-habits/chuong-1-mot-phan-tram-moi-ngay.mp3",
+          "n": 1,
+          "title": "Sức mạnh của một phần trăm mỗi ngày",
+          "script": "content/atomic-habits/chuong-1-mot-phan-tram-moi-ngay.txt"
+        },
+        {
+          "duration_secs": 168,
+          "file": "audio/atomic-habits/chuong-2-bon-quy-luat.mp3",
+          "n": 2,
+          "title": "Bốn quy luật thay đổi hành vi",
+          "script": "content/atomic-habits/chuong-2-bon-quy-luat.txt"
+        },
+        {
+          "duration_secs": 170,
+          "file": "audio/atomic-habits/chuong-3-hap-dan.mp3",
+          "n": 3,
+          "title": "Làm cho thói quen trở nên hấp dẫn",
+          "script": "content/atomic-habits/chuong-3-hap-dan.txt"
+        },
+        {
+          "duration_secs": 171,
+          "file": "audio/atomic-habits/chuong-4-de-dang.mp3",
+          "n": 4,
+          "title": "Làm cho thói quen trở nên dễ dàng",
+          "script": "content/atomic-habits/chuong-4-de-dang.txt"
+        },
+        {
+          "duration_secs": 178,
+          "file": "audio/atomic-habits/chuong-5-thoa-man.mp3",
+          "n": 5,
+          "title": "Làm cho thói quen trở nên thỏa mãn",
+          "script": "content/atomic-habits/chuong-5-thoa-man.txt"
+        },
+        {
+          "duration_secs": 182,
+          "file": "audio/atomic-habits/chuong-6-ban-sac.mp3",
+          "n": 6,
+          "title": "Thay đổi bản sắc, không chỉ mục tiêu",
+          "script": "content/atomic-habits/chuong-6-ban-sac.txt"
+        }
+      ],
+      "cover": "assets/covers/atomic-habits.jpg",
+      "description": "Những thay đổi nhỏ 1% mỗi ngày tạo nên kết quả phi thường: bốn quy luật khiến thói quen tốt trở nên hấp dẫn, dễ dàng, thỏa mãn — và thay đổi từ bản sắc. Bản tóm tắt & diễn giải tiếng Việt.",
+      "slug": "atomic-habits",
+      "source": "Atomic Habits – James Clear",
+      "title": "Thói Quen Nguyên Tử"
     },
     {
-     "duration_secs": 149,
-     "file": "audio/nghi-giau-lam-giau/chuong-5-tiem-thuc.mp3",
-     "n": 5,
-     "title": "Nhóm trí tuệ ưu tú, Tiềm thức và Não bộ",
-     "script": "content/nghi-giau-lam-giau/chuong-5-tiem-thuc.txt"
+      "author": "Cal Newport",
+      "category": "Kỹ năng",
+      "chapters": [
+        {
+          "duration_secs": 140,
+          "file": "audio/deep-work/chuong-1-lam-viec-sau.mp3",
+          "n": 1,
+          "title": "Làm việc sâu: siêu năng lực hiếm hoi",
+          "script": "content/deep-work/chuong-1-lam-viec-sau.txt"
+        },
+        {
+          "duration_secs": 140,
+          "file": "audio/deep-work/chuong-2-len-lich-tap-trung.mp3",
+          "n": 2,
+          "title": "Lên lịch cho sự tập trung",
+          "script": "content/deep-work/chuong-2-len-lich-tap-trung.txt"
+        },
+        {
+          "duration_secs": 144,
+          "file": "audio/deep-work/chuong-3-om-lay-nham-chan.mp3",
+          "n": 3,
+          "title": "Hãy ôm lấy sự nhàm chán",
+          "script": "content/deep-work/chuong-3-om-lay-nham-chan.txt"
+        },
+        {
+          "duration_secs": 159,
+          "file": "audio/deep-work/chuong-4-tu-bo-mang-xa-hoi.mp3",
+          "n": 4,
+          "title": "Từ bỏ mạng xã hội",
+          "script": "content/deep-work/chuong-4-tu-bo-mang-xa-hoi.txt"
+        },
+        {
+          "duration_secs": 146,
+          "file": "audio/deep-work/chuong-5-loai-bo-viec-nong-can.mp3",
+          "n": 5,
+          "title": "Loại bỏ công việc nông cạn",
+          "script": "content/deep-work/chuong-5-loai-bo-viec-nong-can.txt"
+        },
+        {
+          "duration_secs": 137,
+          "file": "audio/deep-work/chuong-6-triet-ly-song.mp3",
+          "n": 6,
+          "title": "Triết lý làm việc sâu",
+          "script": "content/deep-work/chuong-6-triet-ly-song.txt"
+        }
+      ],
+      "cover": "assets/covers/deep-work.jpg",
+      "description": "Trong thời đại xao nhãng, khả năng tập trung sâu là siêu năng lực hiếm hoi: lên lịch tập trung, ôm lấy nhàm chán, từ bỏ mạng xã hội và loại bỏ việc nông cạn. Bản tóm tắt & diễn giải tiếng Việt.",
+      "slug": "deep-work",
+      "source": "Deep Work – Cal Newport",
+      "title": "Làm Việc Sâu"
     },
     {
-     "duration_secs": 169,
-     "file": "audio/nghi-giau-lam-giau/chuong-6-noi-so.mp3",
-     "n": 6,
-     "title": "Giác quan thứ sáu và Sáu bóng ma của nỗi sợ hãi",
-     "script": "content/nghi-giau-lam-giau/chuong-6-noi-so.txt"
+      "author": "Stephen R. Covey",
+      "category": "Kỹ năng",
+      "chapters": [
+        {
+          "duration_secs": 137,
+          "file": "audio/bay-thoi-quen/chuong-1-chu-dong.mp3",
+          "n": 1,
+          "title": "Sống chủ động",
+          "script": "content/bay-thoi-quen/chuong-1-chu-dong.txt"
+        },
+        {
+          "duration_secs": 163,
+          "file": "audio/bay-thoi-quen/chuong-2-muc-tieu-cuoi-cung.mp3",
+          "n": 2,
+          "title": "Bắt đầu với đích đến trong tâm trí",
+          "script": "content/bay-thoi-quen/chuong-2-muc-tieu-cuoi-cung.txt"
+        },
+        {
+          "duration_secs": 165,
+          "file": "audio/bay-thoi-quen/chuong-3-uu-tien.mp3",
+          "n": 3,
+          "title": "Ưu tiên việc quan trọng",
+          "script": "content/bay-thoi-quen/chuong-3-uu-tien.txt"
+        },
+        {
+          "duration_secs": 144,
+          "file": "audio/bay-thoi-quen/chuong-4-cung-thang.mp3",
+          "n": 4,
+          "title": "Tư duy cùng thắng",
+          "script": "content/bay-thoi-quen/chuong-4-cung-thang.txt"
+        },
+        {
+          "duration_secs": 149,
+          "file": "audio/bay-thoi-quen/chuong-5-thau-hieu.mp3",
+          "n": 5,
+          "title": "Thấu hiểu rồi mới mong được thấu hiểu",
+          "script": "content/bay-thoi-quen/chuong-5-thau-hieu.txt"
+        },
+        {
+          "duration_secs": 174,
+          "file": "audio/bay-thoi-quen/chuong-6-hop-luc.mp3",
+          "n": 6,
+          "title": "Hợp lực và mài sắc cưa",
+          "script": "content/bay-thoi-quen/chuong-6-hop-luc.txt"
+        }
+      ],
+      "cover": "assets/covers/bay-thoi-quen.jpg",
+      "description": "Sáu chương, bảy thói quen của người hiệu quả vượt trội: sống chủ động, bắt đầu với đích đến, ưu tiên việc quan trọng, tư duy cùng thắng, thấu hiểu, hợp lực và mài sắc cưa. Bản tóm tắt & diễn giải tiếng Việt.",
+      "slug": "bay-thoi-quen",
+      "source": "The 7 Habits of Highly Effective People – Stephen R. Covey",
+      "title": "Bảy Thói Quen Hiệu Quả"
+    },
+    {
+      "slug": "aesop-fables",
+      "title": "Aesop's Fables — Truyện Ngụ Ngôn Tiếng Anh",
+      "author": "Aesop",
+      "category": "Tiếng Anh",
+      "language": "en",
+      "cover": "assets/covers/aesop-fables.jpg",
+      "description": "6 truyện ngụ ngôn kinh điển bằng tiếng Anh đơn giản, giọng đọc chuẩn bản xứ, tốc độ chậm rãi — giúp các bé vừa luyện nghe vừa học bài học tích cực: kiên trì, trung thực, chăm chỉ, lòng tốt.",
+      "source": "Aesop's Fables (public domain) — kể lại bằng tiếng Anh đơn giản",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "The Tortoise and the Hare — Rùa và Thỏ",
+          "file": "audio/aesop-fables/chuong-1-tortoise-and-hare.mp3",
+          "duration_secs": 121,
+          "script": "content/aesop-fables/chuong-1-tortoise-and-hare.txt"
+        },
+        {
+          "n": 2,
+          "title": "The Boy Who Cried Wolf — Cậu Bé Chăn Cừu",
+          "file": "audio/aesop-fables/chuong-2-boy-who-cried-wolf.mp3",
+          "duration_secs": 115,
+          "script": "content/aesop-fables/chuong-2-boy-who-cried-wolf.txt"
+        },
+        {
+          "n": 3,
+          "title": "The Ant and the Grasshopper — Kiến và Châu Chấu",
+          "file": "audio/aesop-fables/chuong-3-ant-and-grasshopper.mp3",
+          "duration_secs": 106,
+          "script": "content/aesop-fables/chuong-3-ant-and-grasshopper.txt"
+        },
+        {
+          "n": 4,
+          "title": "The Lion and the Mouse — Sư Tử và Chuột",
+          "file": "audio/aesop-fables/chuong-4-lion-and-mouse.mp3",
+          "duration_secs": 116,
+          "script": "content/aesop-fables/chuong-4-lion-and-mouse.txt"
+        },
+        {
+          "n": 5,
+          "title": "The Wind and the Sun — Gió và Mặt Trời",
+          "file": "audio/aesop-fables/chuong-5-wind-and-sun.mp3",
+          "duration_secs": 105,
+          "script": "content/aesop-fables/chuong-5-wind-and-sun.txt"
+        },
+        {
+          "n": 6,
+          "title": "The Goose That Laid the Golden Eggs — Ngỗng Đẻ Trứng Vàng",
+          "file": "audio/aesop-fables/chuong-6-golden-eggs.mp3",
+          "duration_secs": 118,
+          "script": "content/aesop-fables/chuong-6-golden-eggs.txt"
+        }
+      ]
+    },
+    {
+      "slug": "nha-gia-kim",
+      "title": "Nhà Giả Kim",
+      "author": "Paulo Coelho",
+      "category": "Động lực",
+      "description": "Tóm tắt & diễn giải theo lời Boss: hành trình của cậu bé chăn cừu Santiago đi tìm kho báu, và 6 bài học về giấc mơ, sự đánh đổi, nỗi sợ và tình yêu dành cho Hiệp.",
+      "source": "The Alchemist – Paulo Coelho (bản tóm tắt & diễn giải: Boss)",
+      "cover": "assets/covers/nha-gia-kim.jpg",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Giấc mơ của cậu bé chăn cừu",
+          "file": "audio/nha-gia-kim/chuong-1-giac-mo.mp3",
+          "script": "content/nha-gia-kim/chuong-1-giac-mo.txt",
+          "duration_secs": 90
+        },
+        {
+          "n": 2,
+          "title": "Dám đánh đổi",
+          "file": "audio/nha-gia-kim/chuong-2-danh-doi.mp3",
+          "script": "content/nha-gia-kim/chuong-2-danh-doi.txt",
+          "duration_secs": 106
+        },
+        {
+          "n": 3,
+          "title": "Bài học trong tiệm pha lê",
+          "file": "audio/nha-gia-kim/chuong-3-tiem-pha-le.mp3",
+          "script": "content/nha-gia-kim/chuong-3-tiem-pha-le.txt",
+          "duration_secs": 108
+        },
+        {
+          "n": 4,
+          "title": "Đối mặt nỗi sợ",
+          "file": "audio/nha-gia-kim/chuong-4-noi-so.mp3",
+          "script": "content/nha-gia-kim/chuong-4-noi-so.txt",
+          "duration_secs": 119
+        },
+        {
+          "n": 5,
+          "title": "Tình yêu chắp cánh",
+          "file": "audio/nha-gia-kim/chuong-5-fatima.mp3",
+          "script": "content/nha-gia-kim/chuong-5-fatima.txt",
+          "duration_secs": 102
+        },
+        {
+          "n": 6,
+          "title": "Kho báu ở nơi khởi đầu",
+          "file": "audio/nha-gia-kim/chuong-6-kho-bau.mp3",
+          "script": "content/nha-gia-kim/chuong-6-kho-bau.txt",
+          "duration_secs": 119
+        }
+      ]
+    },
+    {
+      "title": "Người Giàu Nhất Thành Babylon",
+      "author": "George S. Clason",
+      "slug": "nguoi-giau-nhat-thanh-babylon",
+      "cover": "assets/covers/nguoi-giau-nhat-thanh-babylon.jpg",
+      "category": "Kinh doanh",
+      "source": "The Richest Man in Babylon – George S. Clason (bản tóm tắt & diễn giải: Boss)",
+      "description": "Kinh điển quản lý tiền bạc qua những câu chuyện ngụ ngôn thành Babylon: quy tắc một phần mười, bắt tiền đi làm thuê, bảo vệ tài sản và năm quy luật của vàng. Bản tóm tắt & diễn giải tiếng Việt, mỗi chương khoảng 2 phút — nghe vừa đủ một chuyến xe.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Bí mật của Arkad",
+          "file": "audio/nguoi-giau-nhat-thanh-babylon/chuong-1-arkad.mp3",
+          "script": "content/nguoi-giau-nhat-thanh-babylon/chuong-1-arkad.txt",
+          "duration_secs": 109
+        },
+        {
+          "n": 2,
+          "title": "Quy tắc một phần mười",
+          "file": "audio/nguoi-giau-nhat-thanh-babylon/chuong-2-mot-phan-muoi.mp3",
+          "script": "content/nguoi-giau-nhat-thanh-babylon/chuong-2-mot-phan-muoi.txt",
+          "duration_secs": 111
+        },
+        {
+          "n": 3,
+          "title": "Bắt đồng tiền đi làm thuê",
+          "file": "audio/nguoi-giau-nhat-thanh-babylon/chuong-3-tien-di-lam.mp3",
+          "script": "content/nguoi-giau-nhat-thanh-babylon/chuong-3-tien-di-lam.txt",
+          "duration_secs": 105
+        },
+        {
+          "n": 4,
+          "title": "Bảo vệ đồng tiền xương máu",
+          "file": "audio/nguoi-giau-nhat-thanh-babylon/chuong-4-bao-ve-tien.mp3",
+          "script": "content/nguoi-giau-nhat-thanh-babylon/chuong-4-bao-ve-tien.txt",
+          "duration_secs": 111
+        },
+        {
+          "n": 5,
+          "title": "Lo cho ngày mai",
+          "file": "audio/nguoi-giau-nhat-thanh-babylon/chuong-5-tuong-lai.mp3",
+          "script": "content/nguoi-giau-nhat-thanh-babylon/chuong-5-tuong-lai.txt",
+          "duration_secs": 107
+        },
+        {
+          "n": 6,
+          "title": "Năm quy luật của vàng",
+          "file": "audio/nguoi-giau-nhat-thanh-babylon/chuong-6-nam-quy-luat.mp3",
+          "script": "content/nguoi-giau-nhat-thanh-babylon/chuong-6-nam-quy-luat.txt",
+          "duration_secs": 111
+        }
+      ]
     }
-   ],
-   "cover": "assets/covers/nghi-giau-lam-giau.jpg",
-   "description": "Triết lý làm giàu kinh điển qua 13 nguyên tắc thành công: khát vọng cháy bỏng, niềm tin, kiến thức chuyên môn, kiên trì và sức mạnh tiềm thức. Bản tóm tắt & diễn giải tiếng Việt, mỗi chương khoảng 3 phút — nghe vừa đủ một chuyến xe.",
-   "slug": "nghi-giau-lam-giau",
-   "source": "Think and Grow Rich – Napoleon Hill",
-   "title": "Nghĩ Giàu Làm Giàu"
-  },
-  {
-   "author": "Robert Kiyosaki",
-   "category": "Kinh doanh",
-   "chapters": [
-    {
-     "duration_secs": 144,
-     "file": "audio/cha-giau-cha-ngheo/chuong-1-bai-hoc-1.mp3",
-     "n": 1,
-     "title": "Người giàu không làm việc vì tiền",
-     "script": "content/cha-giau-cha-ngheo/chuong-1-bai-hoc-1.txt"
-    },
-    {
-     "duration_secs": 130,
-     "file": "audio/cha-giau-cha-ngheo/chuong-2-tai-san.mp3",
-     "n": 2,
-     "title": "Tài sản và tiêu sản",
-     "script": "content/cha-giau-cha-ngheo/chuong-2-tai-san.txt"
-    },
-    {
-     "duration_secs": 127,
-     "file": "audio/cha-giau-cha-ngheo/chuong-3-kinh-doanh.mp3",
-     "n": 3,
-     "title": "Hãy lo việc kinh doanh của chính mình",
-     "script": "content/cha-giau-cha-ngheo/chuong-3-kinh-doanh.txt"
-    },
-    {
-     "duration_secs": 125,
-     "file": "audio/cha-giau-cha-ngheo/chuong-4-thue.mp3",
-     "n": 4,
-     "title": "Thuế, doanh nghiệp và trí thông minh tài chính",
-     "script": "content/cha-giau-cha-ngheo/chuong-4-thue.txt"
-    },
-    {
-     "duration_secs": 117,
-     "file": "audio/cha-giau-cha-ngheo/chuong-5-tao-tien.mp3",
-     "n": 5,
-     "title": "Người giàu tự tạo ra tiền",
-     "script": "content/cha-giau-cha-ngheo/chuong-5-tao-tien.txt"
-    },
-    {
-     "duration_secs": 145,
-     "file": "audio/cha-giau-cha-ngheo/chuong-6-lam-viec-de-hoc.mp3",
-     "n": 6,
-     "title": "Làm việc để học và năm trở ngại tâm lý",
-     "script": "content/cha-giau-cha-ngheo/chuong-6-lam-viec-de-hoc.txt"
-    }
-   ],
-   "cover": "assets/covers/cha-giau-cha-ngheo.jpg",
-   "description": "Hai người cha, hai tư duy tiền bạc trái ngược: phân biệt tài sản – tiêu sản, lo việc kinh doanh của chính mình, và trí thông minh tài chính giúp người giàu tự tạo ra tiền. Bản tóm tắt & diễn giải tiếng Việt, mỗi chương khoảng 2–3 phút.",
-   "slug": "cha-giau-cha-ngheo",
-   "source": "Rich Dad Poor Dad – Robert Kiyosaki",
-   "title": "Cha Giàu Cha Nghèo"
-  },
-  {
-   "author": "Dale Carnegie",
-   "category": "Kỹ năng",
-   "chapters": [
-    {
-     "duration_secs": 176,
-     "file": "audio/dac-nhan-tam/chuong-1-dung-chi-trich.mp3",
-     "n": 1,
-     "title": "Đừng chỉ trích, oán trách, than phiền",
-     "script": "content/dac-nhan-tam/chuong-1-dung-chi-trich.txt"
-    },
-    {
-     "duration_secs": 150,
-     "file": "audio/dac-nhan-tam/chuong-2-khen-ngoi-chan-thanh.mp3",
-     "n": 2,
-     "title": "Biết khen ngợi chân thành",
-     "script": "content/dac-nhan-tam/chuong-2-khen-ngoi-chan-thanh.txt"
-    },
-    {
-     "duration_secs": 161,
-     "file": "audio/dac-nhan-tam/chuong-3-khoi-goi-khat-vong.mp3",
-     "n": 3,
-     "title": "Khơi gợi khát vọng ở người khác",
-     "script": "content/dac-nhan-tam/chuong-3-khoi-goi-khat-vong.txt"
-    },
-    {
-     "duration_secs": 169,
-     "file": "audio/dac-nhan-tam/chuong-4-lang-nghe.mp3",
-     "n": 4,
-     "title": "Lắng nghe và nói điều người khác quan tâm",
-     "script": "content/dac-nhan-tam/chuong-4-lang-nghe.txt"
-    },
-    {
-     "duration_secs": 165,
-     "file": "audio/dac-nhan-tam/chuong-5-cam-thay-quan-trong.mp3",
-     "n": 5,
-     "title": "Khiến người khác thấy mình quan trọng",
-     "script": "content/dac-nhan-tam/chuong-5-cam-thay-quan-trong.txt"
-    },
-    {
-     "duration_secs": 185,
-     "file": "audio/dac-nhan-tam/chuong-6-dan-dat-thay-doi.mp3",
-     "n": 6,
-     "title": "Dẫn dắt thay đổi không gây phản kháng",
-     "script": "content/dac-nhan-tam/chuong-6-dan-dat-thay-doi.txt"
-    }
-   ],
-   "cover": "assets/covers/dac-nhan-tam.jpg",
-   "description": "Nghệ thuật đối nhân xử thế kinh điển: đừng chỉ trích, khen ngợi chân thành, lắng nghe và dẫn dắt người khác thay đổi mà không gây phản kháng. Bản tóm tắt & diễn giải tiếng Việt.",
-   "slug": "dac-nhan-tam",
-   "source": "How to Win Friends and Influence People – Dale Carnegie",
-   "title": "Đắc Nhân Tâm"
-  },
-  {
-   "author": "James Clear",
-   "category": "Kỹ năng",
-   "chapters": [
-    {
-     "duration_secs": 177,
-     "file": "audio/atomic-habits/chuong-1-mot-phan-tram-moi-ngay.mp3",
-     "n": 1,
-     "title": "Sức mạnh của một phần trăm mỗi ngày",
-     "script": "content/atomic-habits/chuong-1-mot-phan-tram-moi-ngay.txt"
-    },
-    {
-     "duration_secs": 168,
-     "file": "audio/atomic-habits/chuong-2-bon-quy-luat.mp3",
-     "n": 2,
-     "title": "Bốn quy luật thay đổi hành vi",
-     "script": "content/atomic-habits/chuong-2-bon-quy-luat.txt"
-    },
-    {
-     "duration_secs": 170,
-     "file": "audio/atomic-habits/chuong-3-hap-dan.mp3",
-     "n": 3,
-     "title": "Làm cho thói quen trở nên hấp dẫn",
-     "script": "content/atomic-habits/chuong-3-hap-dan.txt"
-    },
-    {
-     "duration_secs": 171,
-     "file": "audio/atomic-habits/chuong-4-de-dang.mp3",
-     "n": 4,
-     "title": "Làm cho thói quen trở nên dễ dàng",
-     "script": "content/atomic-habits/chuong-4-de-dang.txt"
-    },
-    {
-     "duration_secs": 178,
-     "file": "audio/atomic-habits/chuong-5-thoa-man.mp3",
-     "n": 5,
-     "title": "Làm cho thói quen trở nên thỏa mãn",
-     "script": "content/atomic-habits/chuong-5-thoa-man.txt"
-    },
-    {
-     "duration_secs": 182,
-     "file": "audio/atomic-habits/chuong-6-ban-sac.mp3",
-     "n": 6,
-     "title": "Thay đổi bản sắc, không chỉ mục tiêu",
-     "script": "content/atomic-habits/chuong-6-ban-sac.txt"
-    }
-   ],
-   "cover": "assets/covers/atomic-habits.jpg",
-   "description": "Những thay đổi nhỏ 1% mỗi ngày tạo nên kết quả phi thường: bốn quy luật khiến thói quen tốt trở nên hấp dẫn, dễ dàng, thỏa mãn — và thay đổi từ bản sắc. Bản tóm tắt & diễn giải tiếng Việt.",
-   "slug": "atomic-habits",
-   "source": "Atomic Habits – James Clear",
-   "title": "Thói Quen Nguyên Tử"
-  },
-  {
-   "author": "Cal Newport",
-   "category": "Kỹ năng",
-   "chapters": [
-    {
-     "duration_secs": 140,
-     "file": "audio/deep-work/chuong-1-lam-viec-sau.mp3",
-     "n": 1,
-     "title": "Làm việc sâu: siêu năng lực hiếm hoi",
-     "script": "content/deep-work/chuong-1-lam-viec-sau.txt"
-    },
-    {
-     "duration_secs": 140,
-     "file": "audio/deep-work/chuong-2-len-lich-tap-trung.mp3",
-     "n": 2,
-     "title": "Lên lịch cho sự tập trung",
-     "script": "content/deep-work/chuong-2-len-lich-tap-trung.txt"
-    },
-    {
-     "duration_secs": 144,
-     "file": "audio/deep-work/chuong-3-om-lay-nham-chan.mp3",
-     "n": 3,
-     "title": "Hãy ôm lấy sự nhàm chán",
-     "script": "content/deep-work/chuong-3-om-lay-nham-chan.txt"
-    },
-    {
-     "duration_secs": 159,
-     "file": "audio/deep-work/chuong-4-tu-bo-mang-xa-hoi.mp3",
-     "n": 4,
-     "title": "Từ bỏ mạng xã hội",
-     "script": "content/deep-work/chuong-4-tu-bo-mang-xa-hoi.txt"
-    },
-    {
-     "duration_secs": 146,
-     "file": "audio/deep-work/chuong-5-loai-bo-viec-nong-can.mp3",
-     "n": 5,
-     "title": "Loại bỏ công việc nông cạn",
-     "script": "content/deep-work/chuong-5-loai-bo-viec-nong-can.txt"
-    },
-    {
-     "duration_secs": 137,
-     "file": "audio/deep-work/chuong-6-triet-ly-song.mp3",
-     "n": 6,
-     "title": "Triết lý làm việc sâu",
-     "script": "content/deep-work/chuong-6-triet-ly-song.txt"
-    }
-   ],
-   "cover": "assets/covers/deep-work.jpg",
-   "description": "Trong thời đại xao nhãng, khả năng tập trung sâu là siêu năng lực hiếm hoi: lên lịch tập trung, ôm lấy nhàm chán, từ bỏ mạng xã hội và loại bỏ việc nông cạn. Bản tóm tắt & diễn giải tiếng Việt.",
-   "slug": "deep-work",
-   "source": "Deep Work – Cal Newport",
-   "title": "Làm Việc Sâu"
-  },
-  {
-   "author": "Stephen R. Covey",
-   "category": "Kỹ năng",
-   "chapters": [
-    {
-     "duration_secs": 137,
-     "file": "audio/bay-thoi-quen/chuong-1-chu-dong.mp3",
-     "n": 1,
-     "title": "Sống chủ động",
-     "script": "content/bay-thoi-quen/chuong-1-chu-dong.txt"
-    },
-    {
-     "duration_secs": 163,
-     "file": "audio/bay-thoi-quen/chuong-2-muc-tieu-cuoi-cung.mp3",
-     "n": 2,
-     "title": "Bắt đầu với đích đến trong tâm trí",
-     "script": "content/bay-thoi-quen/chuong-2-muc-tieu-cuoi-cung.txt"
-    },
-    {
-     "duration_secs": 165,
-     "file": "audio/bay-thoi-quen/chuong-3-uu-tien.mp3",
-     "n": 3,
-     "title": "Ưu tiên việc quan trọng",
-     "script": "content/bay-thoi-quen/chuong-3-uu-tien.txt"
-    },
-    {
-     "duration_secs": 144,
-     "file": "audio/bay-thoi-quen/chuong-4-cung-thang.mp3",
-     "n": 4,
-     "title": "Tư duy cùng thắng",
-     "script": "content/bay-thoi-quen/chuong-4-cung-thang.txt"
-    },
-    {
-     "duration_secs": 149,
-     "file": "audio/bay-thoi-quen/chuong-5-thau-hieu.mp3",
-     "n": 5,
-     "title": "Thấu hiểu rồi mới mong được thấu hiểu",
-     "script": "content/bay-thoi-quen/chuong-5-thau-hieu.txt"
-    },
-    {
-     "duration_secs": 174,
-     "file": "audio/bay-thoi-quen/chuong-6-hop-luc.mp3",
-     "n": 6,
-     "title": "Hợp lực và mài sắc cưa",
-     "script": "content/bay-thoi-quen/chuong-6-hop-luc.txt"
-    }
-   ],
-   "cover": "assets/covers/bay-thoi-quen.jpg",
-   "description": "Sáu chương, bảy thói quen của người hiệu quả vượt trội: sống chủ động, bắt đầu với đích đến, ưu tiên việc quan trọng, tư duy cùng thắng, thấu hiểu, hợp lực và mài sắc cưa. Bản tóm tắt & diễn giải tiếng Việt.",
-   "slug": "bay-thoi-quen",
-   "source": "The 7 Habits of Highly Effective People – Stephen R. Covey",
-   "title": "Bảy Thói Quen Hiệu Quả"
-  },
-  {
-   "slug": "aesop-fables",
-   "title": "Aesop's Fables — Truyện Ngụ Ngôn Tiếng Anh",
-   "author": "Aesop",
-   "category": "Tiếng Anh",
-   "language": "en",
-   "cover": "assets/covers/aesop-fables.jpg",
-   "description": "6 truyện ngụ ngôn kinh điển bằng tiếng Anh đơn giản, giọng đọc chuẩn bản xứ, tốc độ chậm rãi — giúp các bé vừa luyện nghe vừa học bài học tích cực: kiên trì, trung thực, chăm chỉ, lòng tốt.",
-   "source": "Aesop's Fables (public domain) — kể lại bằng tiếng Anh đơn giản",
-   "chapters": [
-    {
-     "n": 1,
-     "title": "The Tortoise and the Hare — Rùa và Thỏ",
-     "file": "audio/aesop-fables/chuong-1-tortoise-and-hare.mp3",
-     "duration_secs": 121,
-     "script": "content/aesop-fables/chuong-1-tortoise-and-hare.txt"
-    },
-    {
-     "n": 2,
-     "title": "The Boy Who Cried Wolf — Cậu Bé Chăn Cừu",
-     "file": "audio/aesop-fables/chuong-2-boy-who-cried-wolf.mp3",
-     "duration_secs": 115,
-     "script": "content/aesop-fables/chuong-2-boy-who-cried-wolf.txt"
-    },
-    {
-     "n": 3,
-     "title": "The Ant and the Grasshopper — Kiến và Châu Chấu",
-     "file": "audio/aesop-fables/chuong-3-ant-and-grasshopper.mp3",
-     "duration_secs": 106,
-     "script": "content/aesop-fables/chuong-3-ant-and-grasshopper.txt"
-    },
-    {
-     "n": 4,
-     "title": "The Lion and the Mouse — Sư Tử và Chuột",
-     "file": "audio/aesop-fables/chuong-4-lion-and-mouse.mp3",
-     "duration_secs": 116,
-     "script": "content/aesop-fables/chuong-4-lion-and-mouse.txt"
-    },
-    {
-     "n": 5,
-     "title": "The Wind and the Sun — Gió và Mặt Trời",
-     "file": "audio/aesop-fables/chuong-5-wind-and-sun.mp3",
-     "duration_secs": 105,
-     "script": "content/aesop-fables/chuong-5-wind-and-sun.txt"
-    },
-    {
-     "n": 6,
-     "title": "The Goose That Laid the Golden Eggs — Ngỗng Đẻ Trứng Vàng",
-     "file": "audio/aesop-fables/chuong-6-golden-eggs.mp3",
-     "duration_secs": 118,
-     "script": "content/aesop-fables/chuong-6-golden-eggs.txt"
-    }
-   ]
-  },
-  {
-   "slug": "nha-gia-kim",
-   "title": "Nhà Giả Kim",
-   "author": "Paulo Coelho",
-   "category": "Động lực",
-   "description": "Tóm tắt & diễn giải theo lời Boss: hành trình của cậu bé chăn cừu Santiago đi tìm kho báu, và 6 bài học về giấc mơ, sự đánh đổi, nỗi sợ và tình yêu dành cho Hiệp.",
-   "source": "The Alchemist – Paulo Coelho (bản tóm tắt & diễn giải: Boss)",
-   "cover": "assets/covers/nha-gia-kim.jpg",
-   "chapters": [
-    {
-     "n": 1,
-     "title": "Giấc mơ của cậu bé chăn cừu",
-     "file": "audio/nha-gia-kim/chuong-1-giac-mo.mp3",
-     "script": "content/nha-gia-kim/chuong-1-giac-mo.txt",
-     "duration_secs": 90
-    },
-    {
-     "n": 2,
-     "title": "Dám đánh đổi",
-     "file": "audio/nha-gia-kim/chuong-2-danh-doi.mp3",
-     "script": "content/nha-gia-kim/chuong-2-danh-doi.txt",
-     "duration_secs": 106
-    },
-    {
-     "n": 3,
-     "title": "Bài học trong tiệm pha lê",
-     "file": "audio/nha-gia-kim/chuong-3-tiem-pha-le.mp3",
-     "script": "content/nha-gia-kim/chuong-3-tiem-pha-le.txt",
-     "duration_secs": 108
-    },
-    {
-     "n": 4,
-     "title": "Đối mặt nỗi sợ",
-     "file": "audio/nha-gia-kim/chuong-4-noi-so.mp3",
-     "script": "content/nha-gia-kim/chuong-4-noi-so.txt",
-     "duration_secs": 119
-    },
-    {
-     "n": 5,
-     "title": "Tình yêu chắp cánh",
-     "file": "audio/nha-gia-kim/chuong-5-fatima.mp3",
-     "script": "content/nha-gia-kim/chuong-5-fatima.txt",
-     "duration_secs": 102
-    },
-    {
-     "n": 6,
-     "title": "Kho báu ở nơi khởi đầu",
-     "file": "audio/nha-gia-kim/chuong-6-kho-bau.mp3",
-     "script": "content/nha-gia-kim/chuong-6-kho-bau.txt",
-     "duration_secs": 119
-    }
-   ]
-  }
- ]
+  ]
 }
