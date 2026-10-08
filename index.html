@@ -28,6 +28,9 @@
       <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
       Nghe tiếp
     </button>
+    <button id="marks-btn" class="btn-icon" aria-label="Đoạn đã đánh dấu" title="Đoạn đã đánh dấu">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+    </button>
   </div>
 </header>
 
@@ -47,6 +50,13 @@
 
   <section class="grid" id="grid" aria-live="polite"></section>
   <p class="empty" id="empty" hidden>Không tìm thấy sách nào phù hợp. Thử từ khóa khác nhé.</p>
+</main>
+
+<main id="view-marks" class="wrap" hidden>
+  <button id="marks-back" class="btn-ghost">← Trang chủ</button>
+  <h2 class="section-title">🔖 Đoạn hay đã đánh dấu <span class="count-pill" id="marks-count"></span></h2>
+  <p class="empty" id="marks-empty" hidden>Chưa có đoạn nào. Khi đang nghe thấy câu hay, bấm nút <b>🔖 Lưu</b> trong trình phát để giữ lại nhé.</p>
+  <div id="marks-list" class="marks"></div>
 </main>
 
 <main id="view-detail" class="wrap" hidden>
@@ -120,8 +130,14 @@
       <div class="p-tools">
         <button id="c-speed" class="tool-btn">1x</button>
         <button id="c-timer" class="tool-btn">⏱ Tắt</button>
+        <button id="c-carmode" class="tool-btn" aria-label="Chế độ lái xe">🚗 Lái xe</button>
+        <button id="c-readalong" class="tool-btn" aria-label="Vừa nghe vừa đọc">📖 Đọc theo</button>
+        <button id="c-mark" class="tool-btn" aria-label="Lưu đoạn hay">🔖 Lưu</button>
       </div>
     </div>
+  </div>
+  <div class="p-readalong" id="p-readalong" hidden>
+    <div class="p-sentences" id="p-sentences"></div>
   </div>
   <div class="timer-menu glass" id="timer-menu" hidden>
     <p class="timer-title">Hẹn giờ tắt</p>
@@ -129,6 +145,41 @@
     <button data-min="30">30 phút</button>
     <button data-min="60">60 phút</button>
     <button data-min="0" class="danger">Tắt hẹn giờ</button>
+  </div>
+</div>
+
+<div class="carmode" id="carmode" hidden>
+  <div class="cm-line"><span id="cm-fill"></span></div>
+  <div class="cm-top">
+    <p class="cm-label">🚗 Chế độ lái xe</p>
+    <button id="cm-close" class="cm-exit" aria-label="Thoát chế độ lái xe">✕ Thoát</button>
+  </div>
+  <div class="cm-mid">
+    <p class="cm-book" id="cm-book"></p>
+    <p class="cm-chapter" id="cm-chapter"></p>
+    <p class="cm-time"><span id="cm-cur">0:00</span> / <span id="cm-total">0:00</span></p>
+  </div>
+  <div class="cm-controls">
+    <button id="cm-prev" class="cm-btn" aria-label="Chương trước">⏮</button>
+    <button id="cm-back15" class="cm-btn sm" aria-label="Lùi 15 giây">−15</button>
+    <button id="cm-play" class="cm-play" aria-label="Phát / Tạm dừng">
+      <svg id="ic-play-cm" viewBox="0 0 24 24" width="56" height="56" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      <svg id="ic-pause-cm" viewBox="0 0 24 24" width="56" height="56" fill="currentColor" hidden><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+    </button>
+    <button id="cm-fwd15" class="cm-btn sm" aria-label="Tiến 15 giây">+15</button>
+    <button id="cm-next" class="cm-btn" aria-label="Chương tiếp">⏭</button>
+  </div>
+</div>
+
+<div class="sheet-backdrop" id="mark-backdrop" hidden>
+  <div class="sheet glass" role="dialog" aria-label="Lưu đoạn hay">
+    <h3>🔖 Lưu đoạn hay</h3>
+    <p class="sheet-sub" id="mark-sub"></p>
+    <textarea id="mark-note" rows="3" placeholder="Ghi chú ngắn… (không bắt buộc)"></textarea>
+    <div class="sheet-actions">
+      <button id="mark-cancel" class="btn-ghost">Hủy</button>
+      <button id="mark-save" class="btn-gold">Lưu lại</button>
+    </div>
   </div>
 </div>
 

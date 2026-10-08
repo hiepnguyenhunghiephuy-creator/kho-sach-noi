@@ -2,6 +2,7 @@
 'use strict';
 
 const LS_KEY = 'kho-sach-noi-progress-v1';
+const MARKS_KEY = 'kho-sach-noi-marks-v1';
 const CATEGORIES = ['Tất cả', 'Động lực', 'Kinh doanh', 'Kỹ năng', 'Tiếng Anh'];
 const SPEEDS = [0.75, 1, 1.25, 1.5, 1.75, 2];
 
@@ -15,7 +16,20 @@ const state = {
   timerId: null,
   timerEnd: 0,
   saveTick: 0,
+  readalong: false,    // chế độ vừa nghe vừa đọc
+  sentences: [],       // [{text, start, end}]
+  activeSent: -1,
+  marks: [],           // đoạn hay đã đánh dấu
 };
+
+function loadMarks() {
+  try { state.marks = JSON.parse(localStorage.getItem(MARKS_KEY)) || []; }
+  catch { state.marks = []; }
+}
+function saveMarks() {
+  try { localStorage.setItem(MARKS_KEY, JSON.stringify(state.marks)); } catch {}
+}
+loadMarks();
 
 const $ = (id) => document.getElementById(id);
 const audio = new Audio();
@@ -139,13 +153,23 @@ function openDetail(slug) {
   });
   $('d-play').onclick = () => playChapter(b, 0);
   $('view-home').hidden = true;
+  $('view-marks').hidden = true;
   $('view-detail').hidden = false;
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function goHome() {
   $('view-detail').hidden = true;
+  $('view-marks').hidden = true;
   $('view-home').hidden = false;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function goMarks() {
+  renderMarks();
+  $('view-home').hidden = true;
+  $('view-detail').hidden = true;
+  $('view-marks').hidden = false;
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -170,10 +194,15 @@ function playChapter(book, idx, startAt = 0) {
   $('p-chapter').textContent = 'Chương ' + ch.n + ' · ' + ch.title;
   $('p-chapter-mini').textContent = 'Chương ' + ch.n + ' · ' + ch.title;
   $('t-total').textContent = fmt(ch.duration_secs || 0);
+  $('cm-book').textContent = book.title;
+  $('cm-chapter').textContent = 'Chương ' + ch.n + ' · ' + ch.title;
+  $('cm-total').textContent = fmt(ch.duration_secs || 0);
+  $('cm-fill').style.width = '0%';
   markPlayingChapter();
   audio.play().catch(() => setPlayIcon(false));
   setMediaSession(book, ch);
   saveProgress();
+  if (state.readalong) loadReadalong();
 }
 
 function setPlayIcon(playing) {
@@ -181,6 +210,8 @@ function setPlayIcon(playing) {
   $('ic-pause').hidden = !playing;
   $('ic-play-mini').hidden = playing;
   $('ic-pause-mini').hidden = !playing;
+  $('ic-play-cm').hidden = playing;
+  $('ic-pause-cm').hidden = !playing;
 }
 
 function setMini(m) {
@@ -190,6 +221,168 @@ function setMini(m) {
 function closePlayer() {
   audio.pause();
   $('player').hidden = true;
+}
+
+/* ---------- 1. chế độ lái xe ---------- */
+function setCarmode(on) {
+  $('carmode').hidden = !on;
+  document.body.style.overflow = on ? 'hidden' : '';
+  if (on && state.book) {
+    const ch = curChapter();
+    $('cm-book').textContent = state.book.title;
+    $('cm-chapter').textContent = 'Chương ' + ch.n + ' · ' + ch.title;
+    $('cm-total').textContent = fmt(audio.duration && isFinite(audio.duration) ? audio.duration : (ch.duration_secs || 0));
+    $('cm-cur').textContent = fmt(audio.currentTime);
+  }
+}
+
+/* ---------- 2. vừa nghe vừa đọc ---------- */
+function splitSentences(text) {
+  const out = [];
+  const re = /[^.!?…\n]+[.!?…]+["”)\]]?|\n+/g;
+  let m;
+  while ((m = re.exec(text)) !== null) {
+    const t = m[0].replace(/\s+/g, ' ').trim();
+    if (t.length > 1 && !/^\n+$/.test(m[0])) out.push(t);
+  }
+  return out.length ? out : [text.trim()].filter(Boolean);
+}
+
+async function loadReadalong() {
+  const ch = curChapter();
+  const box = $('p-sentences');
+  state.sentences = [];
+  state.activeSent = -1;
+  if (!ch || !ch.script) {
+    box.innerHTML = '<p class="loading">Chưa có bản chữ cho chương này.</p>';
+    return;
+  }
+  box.innerHTML = '<p class="loading">Đang tải bản chữ…</p>';
+  try {
+    const res = await fetch(ch.script);
+    if (!res.ok) throw new Error('fetch failed');
+    const text = await res.text();
+    const sents = splitSentences(text);
+    const dur = (audio.duration && isFinite(audio.duration) ? audio.duration : 0) || ch.duration_secs || 1;
+    const totalLen = sents.reduce((n, s) => n + s.length, 0) || 1;
+    let t = 0;
+    state.sentences = sents.map((s) => {
+      const d = (s.length / totalLen) * dur;
+      const seg = { text: s, start: t, end: t + d };
+      t += d;
+      return seg;
+    });
+    box.innerHTML = state.sentences.map((s, i) => `<span class="st" data-i="${i}"></span>`).join(' ');
+    box.querySelectorAll('.st').forEach((el) => {
+      el.textContent = state.sentences[Number(el.dataset.i)].text;
+      el.addEventListener('click', () => { audio.currentTime = state.sentences[Number(el.dataset.i)].start + 0.01; });
+    });
+    updateReadalong(audio.currentTime);
+  } catch {
+    box.innerHTML = '<p class="loading">Không tải được bản chữ.</p>';
+  }
+}
+
+function updateReadalong(t) {
+  const segs = state.sentences;
+  if (!segs.length) return;
+  let idx = segs.length - 1;
+  for (let i = 0; i < segs.length; i++) {
+    if (t < segs[i].end) { idx = i; break; }
+  }
+  if (idx === state.activeSent) return;
+  state.activeSent = idx;
+  const box = $('p-sentences');
+  box.querySelectorAll('.st.active').forEach((el) => el.classList.remove('active'));
+  const el = box.querySelector(`.st[data-i="${idx}"]`);
+  if (el) {
+    el.classList.add('active');
+    el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  }
+}
+
+function setReadalong(on) {
+  state.readalong = on;
+  $('c-readalong').classList.toggle('on', on);
+  $('p-readalong').hidden = !on;
+  if (on) {
+    setMini(false);
+    if (state.book) loadReadalong();
+  } else {
+    state.sentences = [];
+    state.activeSent = -1;
+  }
+}
+
+/* ---------- 3. đánh dấu đoạn hay ---------- */
+function openMarkSheet() {
+  if (!state.book) return;
+  const ch = curChapter();
+  $('mark-sub').textContent = `${state.book.title} · Chương ${ch.n} · ${fmt(audio.currentTime)}`;
+  $('mark-note').value = '';
+  $('mark-backdrop').hidden = false;
+  setTimeout(() => $('mark-note').focus(), 50);
+}
+
+function saveMark() {
+  const ch = curChapter();
+  if (!state.book || !ch) return;
+  state.marks.unshift({
+    id: Date.now(),
+    bookSlug: state.book.slug,
+    bookTitle: state.book.title,
+    chapterIdx: state.chapterIdx,
+    chapterN: ch.n,
+    chapterTitle: ch.title,
+    t: Math.floor(audio.currentTime),
+    note: $('mark-note').value.trim(),
+    at: Date.now(),
+  });
+  saveMarks();
+  $('mark-backdrop').hidden = true;
+}
+
+function deleteMark(id) {
+  state.marks = state.marks.filter((m) => m.id !== id);
+  saveMarks();
+  renderMarks();
+}
+
+function playMark(m) {
+  const book = bookBySlug(m.bookSlug);
+  if (!book || !book.chapters[m.chapterIdx]) return;
+  goHome();
+  playChapter(book, m.chapterIdx, Math.max(0, m.t - 2));
+}
+
+function renderMarks() {
+  $('marks-count').textContent = state.marks.length ? state.marks.length + '' : '';
+  $('marks-empty').hidden = state.marks.length > 0;
+  $('marks-list').innerHTML = state.marks.map((m) => `
+    <div class="mark-item glass">
+      <div class="mark-info">
+        <p class="mark-book">${escapeHtml(m.bookTitle)}</p>
+        <p class="mark-chapter">Chương ${m.chapterN} · ${escapeHtml(m.chapterTitle)}</p>
+        ${m.note ? `<p class="mark-note">${escapeHtml(m.note)}</p>` : ''}
+        <p class="mark-time">▶ ${fmt(m.t)}</p>
+      </div>
+      <div class="mark-actions">
+        <button class="mark-play" data-play="${m.id}" aria-label="Nghe từ đoạn này">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <button class="mark-del" data-del="${m.id}" aria-label="Xóa">🗑</button>
+      </div>
+    </div>`).join('');
+  $('marks-list').querySelectorAll('[data-play]').forEach((b) =>
+    b.addEventListener('click', () => playMark(state.marks.find((m) => m.id === Number(b.dataset.play))))
+  );
+  $('marks-list').querySelectorAll('[data-del]').forEach((b) =>
+    b.addEventListener('click', () => deleteMark(Number(b.dataset.del)))
+  );
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
 function togglePlay() {
@@ -291,6 +484,7 @@ audio.addEventListener('play', () => { setPlayIcon(true); markPlayingChapter(); 
 audio.addEventListener('pause', () => { setPlayIcon(false); markPlayingChapter(); saveProgress(); });
 audio.addEventListener('loadedmetadata', () => {
   if (audio.duration && isFinite(audio.duration)) $('t-total').textContent = fmt(audio.duration);
+  if (state.readalong && state.book) loadReadalong();
 });
 audio.addEventListener('timeupdate', () => {
   const dur = audio.duration && isFinite(audio.duration) ? audio.duration : (curChapter()?.duration_secs || 0);
@@ -299,6 +493,11 @@ audio.addEventListener('timeupdate', () => {
   $('seek').value = Math.round(pct * 10);
   $('seek').style.setProperty('--fill', pct + '%');
   $('p-line-fill').style.width = pct + '%';
+  if (!$('carmode').hidden) {
+    $('cm-fill').style.width = pct + '%';
+    $('cm-cur').textContent = fmt(audio.currentTime);
+  }
+  if (state.readalong) updateReadalong(audio.currentTime);
   if (++state.saveTick % 10 === 0) saveProgress(); // ~mỗi 2–3 giây
 });
 audio.addEventListener('ended', () => {
@@ -334,6 +533,27 @@ function bindUI() {
   $('c-back15').addEventListener('click', () => { audio.currentTime = Math.max(0, audio.currentTime - 15); });
   $('c-fwd15').addEventListener('click', () => { audio.currentTime = Math.min(audio.duration || Infinity, audio.currentTime + 15); });
   $('c-close').addEventListener('click', closePlayer);
+
+  // 3 tính năng mới
+  $('marks-btn').addEventListener('click', goMarks);
+  $('marks-back').addEventListener('click', goHome);
+
+  $('c-carmode').addEventListener('click', () => setCarmode(true));
+  $('cm-close').addEventListener('click', () => setCarmode(false));
+  $('cm-play').addEventListener('click', togglePlay);
+  $('cm-prev').addEventListener('click', () => stepChapter(-1));
+  $('cm-next').addEventListener('click', () => stepChapter(1));
+  $('cm-back15').addEventListener('click', () => { audio.currentTime = Math.max(0, audio.currentTime - 15); });
+  $('cm-fwd15').addEventListener('click', () => { audio.currentTime = Math.min(audio.duration || Infinity, audio.currentTime + 15); });
+
+  $('c-readalong').addEventListener('click', () => setReadalong(!state.readalong));
+
+  $('c-mark').addEventListener('click', openMarkSheet);
+  $('mark-cancel').addEventListener('click', () => { $('mark-backdrop').hidden = true; });
+  $('mark-save').addEventListener('click', saveMark);
+  $('mark-backdrop').addEventListener('click', (e) => {
+    if (e.target === $('mark-backdrop')) $('mark-backdrop').hidden = true;
+  });
 
   $('seek').addEventListener('input', () => {
     const dur = audio.duration && isFinite(audio.duration) ? audio.duration : (curChapter()?.duration_secs || 0);
