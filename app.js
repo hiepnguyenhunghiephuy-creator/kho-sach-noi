@@ -162,9 +162,13 @@ function playChapter(book, idx, startAt = 0) {
   if (audio.getAttribute('src') !== ch.file) audio.setAttribute('src', ch.file);
   audio.currentTime = startAt;
   $('player').hidden = false;
+  setMini(true);
   $('p-cover').src = book.cover;
+  $('p-cover-mini').src = book.cover;
   $('p-book').textContent = book.title;
+  $('p-book-mini').textContent = book.title;
   $('p-chapter').textContent = 'Chương ' + ch.n + ' · ' + ch.title;
+  $('p-chapter-mini').textContent = 'Chương ' + ch.n + ' · ' + ch.title;
   $('t-total').textContent = fmt(ch.duration_secs || 0);
   markPlayingChapter();
   audio.play().catch(() => setPlayIcon(false));
@@ -175,6 +179,17 @@ function playChapter(book, idx, startAt = 0) {
 function setPlayIcon(playing) {
   $('ic-play').hidden = playing;
   $('ic-pause').hidden = !playing;
+  $('ic-play-mini').hidden = playing;
+  $('ic-pause-mini').hidden = !playing;
+}
+
+function setMini(m) {
+  $('player').classList.toggle('mini', m);
+}
+
+function closePlayer() {
+  audio.pause();
+  $('player').hidden = true;
 }
 
 function togglePlay() {
@@ -283,6 +298,7 @@ audio.addEventListener('timeupdate', () => {
   const pct = dur ? (audio.currentTime / dur) * 100 : 0;
   $('seek').value = Math.round(pct * 10);
   $('seek').style.setProperty('--fill', pct + '%');
+  $('p-line-fill').style.width = pct + '%';
   if (++state.saveTick % 10 === 0) saveProgress(); // ~mỗi 2–3 giây
 });
 audio.addEventListener('ended', () => {
@@ -306,14 +322,18 @@ function bindUI() {
   $('search').addEventListener('input', (e) => { state.query = e.target.value; renderGrid(); });
 
   $('c-play').addEventListener('click', togglePlay);
+  $('c-play-mini').addEventListener('click', (e) => { e.stopPropagation(); togglePlay(); });
+  $('p-mini').addEventListener('click', (e) => {
+    if (e.target.closest('button')) return;
+    setMini(false);
+  });
+  $('c-collapse').addEventListener('click', () => setMini(true));
+  $('c-close-mini').addEventListener('click', (e) => { e.stopPropagation(); closePlayer(); });
   $('c-prev').addEventListener('click', () => stepChapter(-1));
   $('c-next').addEventListener('click', () => stepChapter(1));
   $('c-back15').addEventListener('click', () => { audio.currentTime = Math.max(0, audio.currentTime - 15); });
   $('c-fwd15').addEventListener('click', () => { audio.currentTime = Math.min(audio.duration || Infinity, audio.currentTime + 15); });
-  $('c-close').addEventListener('click', () => {
-    audio.pause();
-    $('player').hidden = true;
-  });
+  $('c-close').addEventListener('click', closePlayer);
 
   $('seek').addEventListener('input', () => {
     const dur = audio.duration && isFinite(audio.duration) ? audio.duration : (curChapter()?.duration_secs || 0);
