@@ -281,6 +281,54 @@
       "slug": "bay-thoi-quen",
       "source": "The 7 Habits of Highly Effective People – Stephen R. Covey",
       "title": "Bảy Thói Quen Hiệu Quả"
+    },
+    {
+      "slug": "aesop-fables",
+      "title": "Aesop's Fables — Truyện Ngụ Ngôn Tiếng Anh",
+      "author": "Aesop",
+      "category": "Tiếng Anh",
+      "language": "en",
+      "cover": "assets/covers/aesop-fables.jpg",
+      "description": "6 truyện ngụ ngôn kinh điển bằng tiếng Anh đơn giản, giọng đọc chuẩn bản xứ, tốc độ chậm rãi — giúp các bé vừa luyện nghe vừa học bài học tích cực: kiên trì, trung thực, chăm chỉ, lòng tốt.",
+      "source": "Aesop's Fables (public domain) — kể lại bằng tiếng Anh đơn giản",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "The Tortoise and the Hare — Rùa và Thỏ",
+          "file": "audio/aesop-fables/chuong-1-tortoise-and-hare.mp3",
+          "duration_secs": 121
+        },
+        {
+          "n": 2,
+          "title": "The Boy Who Cried Wolf — Cậu Bé Chăn Cừu",
+          "file": "audio/aesop-fables/chuong-2-boy-who-cried-wolf.mp3",
+          "duration_secs": 115
+        },
+        {
+          "n": 3,
+          "title": "The Ant and the Grasshopper — Kiến và Châu Chấu",
+          "file": "audio/aesop-fables/chuong-3-ant-and-grasshopper.mp3",
+          "duration_secs": 106
+        },
+        {
+          "n": 4,
+          "title": "The Lion and the Mouse — Sư Tử và Chuột",
+          "file": "audio/aesop-fables/chuong-4-lion-and-mouse.mp3",
+          "duration_secs": 116
+        },
+        {
+          "n": 5,
+          "title": "The Wind and the Sun — Gió và Mặt Trời",
+          "file": "audio/aesop-fables/chuong-5-wind-and-sun.mp3",
+          "duration_secs": 105
+        },
+        {
+          "n": 6,
+          "title": "The Goose That Laid the Golden Eggs — Ngỗng Đẻ Trứng Vàng",
+          "file": "audio/aesop-fables/chuong-6-golden-eggs.mp3",
+          "duration_secs": 118
+        }
+      ]
     }
   ]
 }

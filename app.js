@@ -2,7 +2,7 @@
 'use strict';
 
 const LS_KEY = 'kho-sach-noi-progress-v1';
-const CATEGORIES = ['Tất cả', 'Động lực', 'Kinh doanh', 'Kỹ năng'];
+const CATEGORIES = ['Tất cả', 'Động lực', 'Kinh doanh', 'Kỹ năng', 'Tiếng Anh'];
 const SPEEDS = [0.75, 1, 1.25, 1.5, 1.75, 2];
 
 const state = {
