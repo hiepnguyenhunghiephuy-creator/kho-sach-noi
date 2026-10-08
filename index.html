@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#07090f">
+<title>Kho Sách Nói — Thư viện sách nói tiếng Việt</title>
+<meta name="description" content="Tóm tắt & diễn giải sách hay về động lực, kinh doanh, kỹ năng — mỗi chương vài phút, nghe vừa đủ một chuyến xe.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="bg-orbs" aria-hidden="true"><span class="orb orb-1"></span><span class="orb orb-2"></span><span class="orb orb-3"></span></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="#" id="logo" aria-label="Kho Sách Nói — trang chủ">
+      <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+      <span>Kho Sách Nói</span>
+    </a>
+    <label class="search">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="search" type="search" placeholder="Tìm sách, tác giả…" autocomplete="off">
+    </label>
+    <button id="resume-btn" class="btn-resume" hidden>
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      Nghe tiếp
+    </button>
+  </div>
+</header>
+
+<main id="view-home" class="wrap">
+  <section class="hero">
+    <p class="eyebrow">Thư viện sách nói tiếng Việt</p>
+    <h1>Kho Sách Nói</h1>
+    <p class="lede">Tóm tắt &amp; diễn giải những cuốn sách hay nhất về động lực, kinh doanh và kỹ năng — mỗi chương chỉ vài phút, nghe vừa đủ một chuyến xe.</p>
+    <div class="stats">
+      <div class="stat"><b id="stat-books">–</b><span>sách</span></div>
+      <div class="stat"><b id="stat-chapters">–</b><span>chương</span></div>
+      <div class="stat"><b id="stat-minutes">–</b><span>phút nghe</span></div>
+    </div>
+  </section>
+
+  <div class="chips" id="chips" role="tablist" aria-label="Lọc theo thể loại"></div>
+
+  <section class="grid" id="grid" aria-live="polite"></section>
+  <p class="empty" id="empty" hidden>Không tìm thấy sách nào phù hợp. Thử từ khóa khác nhé.</p>
+</main>
+
+<main id="view-detail" class="wrap" hidden>
+  <button id="back-btn" class="btn-ghost">← Tất cả sách</button>
+  <div class="detail-head glass">
+    <img id="d-cover" alt="" class="detail-cover">
+    <div class="detail-info">
+      <p class="cat-pill" id="d-cat"></p>
+      <h2 id="d-title"></h2>
+      <p class="d-author" id="d-author"></p>
+      <p class="d-meta" id="d-meta"></p>
+      <button id="d-play" class="btn-gold">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        Nghe từ đầu
+      </button>
+    </div>
+  </div>
+  <p class="d-desc" id="d-desc"></p>
+  <h3 class="section-title">Danh sách chương</h3>
+  <ol class="chapters" id="chapter-list"></ol>
+  <p class="credit" id="d-credit"></p>
+</main>
+
+<footer class="wrap footer">
+  <p>Kho Sách Nói · Tóm tắt &amp; diễn giải: Boss — dành riêng cho Hiệp</p>
+</footer>
+
+<div class="player glass" id="player" hidden>
+  <img id="p-cover" alt="" class="p-cover">
+  <div class="p-main">
+    <div class="p-head">
+      <div class="p-titles">
+        <p id="p-book" class="p-book"></p>
+        <p id="p-chapter" class="p-chapter"></p>
+      </div>
+      <button id="c-close" class="icon-btn" aria-label="Đóng trình phát">✕</button>
+    </div>
+    <input type="range" id="seek" min="0" max="1000" value="0" step="1" aria-label="Thanh tiến trình">
+    <div class="p-times"><span id="t-cur">0:00</span><span id="t-total">0:00</span></div>
+    <div class="p-controls">
+      <button id="c-back15" class="icon-btn big" aria-label="Lùi 15 giây">−15s</button>
+      <button id="c-prev" class="icon-btn big" aria-label="Chương trước">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M6 6h2v12H6zM18 6l-8.5 6L18 18z"/></svg>
+      </button>
+      <button id="c-play" class="play-btn" aria-label="Phát / Tạm dừng">
+        <svg id="ic-play" viewBox="0 0 24 24" width="30" height="30" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        <svg id="ic-pause" viewBox="0 0 24 24" width="30" height="30" fill="currentColor" hidden><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+      </button>
+      <button id="c-next" class="icon-btn big" aria-label="Chương tiếp">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M16 6h2v12h-2zM6 6l8.5 6L6 18z"/></svg>
+      </button>
+      <button id="c-fwd15" class="icon-btn big" aria-label="Tiến 15 giây">+15s</button>
+    </div>
+    <div class="p-tools">
+      <button id="c-speed" class="tool-btn">1x</button>
+      <button id="c-timer" class="tool-btn">⏱ Tắt</button>
+    </div>
+  </div>
+  <div class="timer-menu glass" id="timer-menu" hidden>
+    <p class="timer-title">Hẹn giờ tắt</p>
+    <button data-min="15">15 phút</button>
+    <button data-min="30">30 phút</button>
+    <button data-min="60">60 phút</button>
+    <button data-min="0" class="danger">Tắt hẹn giờ</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
