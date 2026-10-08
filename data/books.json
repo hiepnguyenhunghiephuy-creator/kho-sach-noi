@@ -530,6 +530,165 @@
           "duration_secs": 99
         }
       ]
+    },
+    {
+      "title": "Đánh Thức Con Người Phi Thường",
+      "author": "Tony Robbins",
+      "slug": "danh-thuc-con-nguoi-phi-thuong",
+      "cover": "assets/covers/danh-thuc-con-nguoi-phi-thuong.jpg",
+      "category": "Động lực",
+      "source": "Awaken the Giant Within – Tony Robbins (bản tóm tắt & diễn giải: Boss)",
+      "description": "Tuyệt chiêu làm chủ cuộc đời từ Tony Robbins: quyết định tạo số phận, nguyên tắc đau-sướng, niềm tin, câu hỏi hay, làm chủ cảm xúc và cải tiến không ngừng. Bản tóm tắt & diễn giải tiếng Việt, mỗi chương khoảng 2 phút.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Quyết định tạo nên số phận",
+          "file": "audio/danh-thuc-con-nguoi-phi-thuong/chuong-1-quyet-dinh.mp3",
+          "script": "content/danh-thuc-con-nguoi-phi-thuong/chuong-1-quyet-dinh.txt",
+          "duration_secs": 94
+        },
+        {
+          "n": 2,
+          "title": "Nguyên tắc đau đớn và sung sướng",
+          "file": "audio/danh-thuc-con-nguoi-phi-thuong/chuong-2-dau-suong.mp3",
+          "script": "content/danh-thuc-con-nguoi-phi-thuong/chuong-2-dau-suong.txt",
+          "duration_secs": 98
+        },
+        {
+          "n": 3,
+          "title": "Niềm tin tạo nên thực tại",
+          "file": "audio/danh-thuc-con-nguoi-phi-thuong/chuong-3-niem-tin.mp3",
+          "script": "content/danh-thuc-con-nguoi-phi-thuong/chuong-3-niem-tin.txt",
+          "duration_secs": 104
+        },
+        {
+          "n": 4,
+          "title": "Câu hỏi quyết định cuộc đời",
+          "file": "audio/danh-thuc-con-nguoi-phi-thuong/chuong-4-cau-hoi.mp3",
+          "script": "content/danh-thuc-con-nguoi-phi-thuong/chuong-4-cau-hoi.txt",
+          "duration_secs": 96
+        },
+        {
+          "n": 5,
+          "title": "Làm chủ cảm xúc",
+          "file": "audio/danh-thuc-con-nguoi-phi-thuong/chuong-5-cam-xuc.mp3",
+          "script": "content/danh-thuc-con-nguoi-phi-thuong/chuong-5-cam-xuc.txt",
+          "duration_secs": 107
+        },
+        {
+          "n": 6,
+          "title": "Cải tiến không ngừng",
+          "file": "audio/danh-thuc-con-nguoi-phi-thuong/chuong-6-cani.mp3",
+          "script": "content/danh-thuc-con-nguoi-phi-thuong/chuong-6-cani.txt",
+          "duration_secs": 99
+        }
+      ]
+    },
+    {
+      "title": "Bí Mật Của May Mắn",
+      "author": "Alex Rovira",
+      "slug": "bi-mat-cua-may-man",
+      "cover": "assets/covers/bi-mat-cua-may-man.jpg",
+      "category": "Động lực",
+      "source": "Good Luck – Alex Rovira (bản tóm tắt & diễn giải: Boss)",
+      "description": "Câu chuyện ngụ ngôn về hai hiệp sĩ đi tìm cỏ bốn lá: may mắn không tự đến mà do mình tạo ra bằng sự chuẩn bị, kiên trì và chia sẻ. Bản tóm tắt & diễn giải tiếng Việt, mỗi chương khoảng 2 phút.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Hai hiệp sĩ và lời tiên tri",
+          "file": "audio/bi-mat-cua-may-man/chuong-1-hai-hiep-si.mp3",
+          "script": "content/bi-mat-cua-may-man/chuong-1-hai-hiep-si.txt",
+          "duration_secs": 99
+        },
+        {
+          "n": 2,
+          "title": "Đừng chờ may mắn, hãy tạo hoàn cảnh",
+          "file": "audio/bi-mat-cua-may-man/chuong-2-tao-hoan-canh.mp3",
+          "script": "content/bi-mat-cua-may-man/chuong-2-tao-hoan-canh.txt",
+          "duration_secs": 102
+        },
+        {
+          "n": 3,
+          "title": "Gieo hạt đúng chỗ",
+          "file": "audio/bi-mat-cua-may-man/chuong-3-gieo-hat.mp3",
+          "script": "content/bi-mat-cua-may-man/chuong-3-gieo-hat.txt",
+          "duration_secs": 95
+        },
+        {
+          "n": 4,
+          "title": "May mắn nằm trong chi tiết nhỏ",
+          "file": "audio/bi-mat-cua-may-man/chuong-4-chi-tiet.mp3",
+          "script": "content/bi-mat-cua-may-man/chuong-4-chi-tiet.txt",
+          "duration_secs": 98
+        },
+        {
+          "n": 5,
+          "title": "Đừng tin vào hên xui",
+          "file": "audio/bi-mat-cua-may-man/chuong-5-dung-tin-hen-xui.mp3",
+          "script": "content/bi-mat-cua-may-man/chuong-5-dung-tin-hen-xui.txt",
+          "duration_secs": 87
+        },
+        {
+          "n": 6,
+          "title": "May mắn không mua được",
+          "file": "audio/bi-mat-cua-may-man/chuong-6-ket.mp3",
+          "script": "content/bi-mat-cua-may-man/chuong-6-ket.txt",
+          "duration_secs": 98
+        }
+      ]
+    },
+    {
+      "title": "Quẳng Gánh Lo Đi Mà Vui Sống",
+      "author": "Dale Carnegie",
+      "slug": "quang-ganh-lo-di",
+      "cover": "assets/covers/quang-ganh-lo-di.jpg",
+      "category": "Kỹ năng",
+      "source": "How to Stop Worrying and Start Living – Dale Carnegie (bản tóm tắt & diễn giải: Boss)",
+      "description": "Bài thuốc trị lo âu từ Dale Carnegie: sống trong ngày hôm nay, công thức bốn bước, bận rộn với việc ý nghĩa, bỏ ngoài tai miệng đời, biết ơn và nghỉ ngơi đủ. Bản tóm tắt & diễn giải tiếng Việt, mỗi chương khoảng 2 phút.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Sống trong ngăn kín của hôm nay",
+          "file": "audio/quang-ganh-lo-di/chuong-1-ngan-kin.mp3",
+          "script": "content/quang-ganh-lo-di/chuong-1-ngan-kin.txt",
+          "duration_secs": 106
+        },
+        {
+          "n": 2,
+          "title": "Công thức bốn bước trị lo âu",
+          "file": "audio/quang-ganh-lo-di/chuong-2-bon-buoc.mp3",
+          "script": "content/quang-ganh-lo-di/chuong-2-bon-buoc.txt",
+          "duration_secs": 111
+        },
+        {
+          "n": 3,
+          "title": "Hãy bận rộn",
+          "file": "audio/quang-ganh-lo-di/chuong-3-ban-ron.mp3",
+          "script": "content/quang-ganh-lo-di/chuong-3-ban-ron.txt",
+          "duration_secs": 108
+        },
+        {
+          "n": 4,
+          "title": "Đừng lo về lời chỉ trích",
+          "file": "audio/quang-ganh-lo-di/chuong-4-chi-trich.mp3",
+          "script": "content/quang-ganh-lo-di/chuong-4-chi-trich.txt",
+          "duration_secs": 93
+        },
+        {
+          "n": 5,
+          "title": "Đếm phúc lành, đừng đếm rắc rối",
+          "file": "audio/quang-ganh-lo-di/chuong-5-biet-on.mp3",
+          "script": "content/quang-ganh-lo-di/chuong-5-biet-on.txt",
+          "duration_secs": 103
+        },
+        {
+          "n": 6,
+          "title": "Mệt mỏi sinh lo âu",
+          "file": "audio/quang-ganh-lo-di/chuong-6-nghi-ngoi.mp3",
+          "script": "content/quang-ganh-lo-di/chuong-6-nghi-ngoi.txt",
+          "duration_secs": 100
+        }
+      ]
     }
   ]
 }
