@@ -371,6 +371,59 @@
      "script": "content/aesop-fables/chuong-6-golden-eggs.txt"
     }
    ]
+  },
+  {
+   "slug": "nha-gia-kim",
+   "title": "Nhà Giả Kim",
+   "author": "Paulo Coelho",
+   "category": "Động lực",
+   "description": "Tóm tắt & diễn giải theo lời Boss: hành trình của cậu bé chăn cừu Santiago đi tìm kho báu, và 6 bài học về giấc mơ, sự đánh đổi, nỗi sợ và tình yêu dành cho Hiệp.",
+   "source": "The Alchemist – Paulo Coelho (bản tóm tắt & diễn giải: Boss)",
+   "cover": "assets/covers/nha-gia-kim.jpg",
+   "chapters": [
+    {
+     "n": 1,
+     "title": "Giấc mơ của cậu bé chăn cừu",
+     "file": "audio/nha-gia-kim/chuong-1-giac-mo.mp3",
+     "script": "content/nha-gia-kim/chuong-1-giac-mo.txt",
+     "duration_secs": 90
+    },
+    {
+     "n": 2,
+     "title": "Dám đánh đổi",
+     "file": "audio/nha-gia-kim/chuong-2-danh-doi.mp3",
+     "script": "content/nha-gia-kim/chuong-2-danh-doi.txt",
+     "duration_secs": 106
+    },
+    {
+     "n": 3,
+     "title": "Bài học trong tiệm pha lê",
+     "file": "audio/nha-gia-kim/chuong-3-tiem-pha-le.mp3",
+     "script": "content/nha-gia-kim/chuong-3-tiem-pha-le.txt",
+     "duration_secs": 108
+    },
+    {
+     "n": 4,
+     "title": "Đối mặt nỗi sợ",
+     "file": "audio/nha-gia-kim/chuong-4-noi-so.mp3",
+     "script": "content/nha-gia-kim/chuong-4-noi-so.txt",
+     "duration_secs": 119
+    },
+    {
+     "n": 5,
+     "title": "Tình yêu chắp cánh",
+     "file": "audio/nha-gia-kim/chuong-5-fatima.mp3",
+     "script": "content/nha-gia-kim/chuong-5-fatima.txt",
+     "duration_secs": 102
+    },
+    {
+     "n": 6,
+     "title": "Kho báu ở nơi khởi đầu",
+     "file": "audio/nha-gia-kim/chuong-6-kho-bau.mp3",
+     "script": "content/nha-gia-kim/chuong-6-kho-bau.txt",
+     "duration_secs": 119
+    }
+   ]
   }
  ]
 }
