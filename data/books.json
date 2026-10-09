@@ -689,6 +689,59 @@
           "duration_secs": 100
         }
       ]
+    },
+    {
+      "title": "Tôi Tài Giỏi, Bạn Cũng Thế",
+      "author": "Adam Khoo",
+      "slug": "toi-tai-gioi-ban-cung-the",
+      "cover": "assets/covers/toi-tai-gioi-ban-cung-the.jpg",
+      "category": "Động lực",
+      "source": "I Am Gifted, So Are You! – Adam Khoo (bản tóm tắt & diễn giải: Boss)",
+      "description": "Bí quyết học giỏi từ Adam Khoo, kể riêng cho Rồng & Nếp: ai cũng có thể giỏi, đặt mục tiêu, sơ đồ tư duy, trí nhớ siêu đẳng, tập trung và thói quen tốt mỗi ngày. Bản tóm tắt & diễn giải tiếng Việt, mỗi chương khoảng 2 phút.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Ai cũng có thể giỏi",
+          "file": "audio/toi-tai-gioi-ban-cung-the/chuong-1-ai-cung-gioi.mp3",
+          "script": "content/toi-tai-gioi-ban-cung-the/chuong-1-ai-cung-gioi.txt",
+          "duration_secs": 96
+        },
+        {
+          "n": 2,
+          "title": "Mục tiêu rõ ràng",
+          "file": "audio/toi-tai-gioi-ban-cung-the/chuong-2-muc-tieu.mp3",
+          "script": "content/toi-tai-gioi-ban-cung-the/chuong-2-muc-tieu.txt",
+          "duration_secs": 99
+        },
+        {
+          "n": 3,
+          "title": "Học bằng sơ đồ tư duy",
+          "file": "audio/toi-tai-gioi-ban-cung-the/chuong-3-so-do-tu-duy.mp3",
+          "script": "content/toi-tai-gioi-ban-cung-the/chuong-3-so-do-tu-duy.txt",
+          "duration_secs": 87
+        },
+        {
+          "n": 4,
+          "title": "Trí nhớ siêu đẳng",
+          "file": "audio/toi-tai-gioi-ban-cung-the/chuong-4-tri-nho.mp3",
+          "script": "content/toi-tai-gioi-ban-cung-the/chuong-4-tri-nho.txt",
+          "duration_secs": 103
+        },
+        {
+          "n": 5,
+          "title": "Tập trung và kỷ luật",
+          "file": "audio/toi-tai-gioi-ban-cung-the/chuong-5-tap-trung.mp3",
+          "script": "content/toi-tai-gioi-ban-cung-the/chuong-5-tap-trung.txt",
+          "duration_secs": 98
+        },
+        {
+          "n": 6,
+          "title": "Kiên trì, tự lập và thói quen tốt",
+          "file": "audio/toi-tai-gioi-ban-cung-the/chuong-6-kien-tri-thoi-quen.mp3",
+          "script": "content/toi-tai-gioi-ban-cung-the/chuong-6-kien-tri-thoi-quen.txt",
+          "duration_secs": 143
+        }
+      ]
     }
   ]
 }
