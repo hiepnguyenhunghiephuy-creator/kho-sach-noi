@@ -1007,6 +1007,271 @@
           "duration_secs": 125
         }
       ]
+    },
+    {
+      "title": "Totto-chan: Cô Bé Bên Cửa Sổ",
+      "author": "Tetsuko Kuroyanagi",
+      "slug": "totto-chan",
+      "cover": "assets/covers/totto-chan.jpg",
+      "category": "🌟 Rồng & Nếp",
+      "source": "Totto-chan: Cô Bé Bên Cửa Sổ – Tetsuko Kuroyanagi (bản kể lại: Boss)",
+      "description": "Câu chuyện có thật về cô bé hiếu động và ngôi trường trong toa tàu kỳ diệu, nơi mỗi đứa trẻ được là chính mình. Kể riêng cho Rồng & Nếp, mỗi chương khoảng 2 phút.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Khác biệt không phải cái tội",
+          "file": "audio/totto-chan/chuong-1-khac-biet.mp3",
+          "script": "content/totto-chan/chuong-1-khac-biet.txt",
+          "duration_secs": 93
+        },
+        {
+          "n": 2,
+          "title": "Ngôi trường trong toa tàu",
+          "file": "audio/totto-chan/chuong-2-truong-toa-tau.mp3",
+          "script": "content/totto-chan/chuong-2-truong-toa-tau.txt",
+          "duration_secs": 89
+        },
+        {
+          "n": 3,
+          "title": "Người thầy biết lắng nghe",
+          "file": "audio/totto-chan/chuong-3-thay-lang-nghe.mp3",
+          "script": "content/totto-chan/chuong-3-thay-lang-nghe.txt",
+          "duration_secs": 97
+        },
+        {
+          "n": 4,
+          "title": "Mỗi người một nhịp điệu",
+          "file": "audio/totto-chan/chuong-4-nhip-dieu.mp3",
+          "script": "content/totto-chan/chuong-4-nhip-dieu.txt",
+          "duration_secs": 99
+        },
+        {
+          "n": 5,
+          "title": "Việc tốt mỗi ngày",
+          "file": "audio/totto-chan/chuong-5-viec-tot.mp3",
+          "script": "content/totto-chan/chuong-5-viec-tot.txt",
+          "duration_secs": 100
+        },
+        {
+          "n": 6,
+          "title": "Mang theo cả đời",
+          "file": "audio/totto-chan/chuong-6-mang-theo.mp3",
+          "script": "content/totto-chan/chuong-6-mang-theo.txt",
+          "duration_secs": 89
+        }
+      ]
+    },
+    {
+      "title": "Những Tấm Lòng Cao Cả",
+      "author": "Edmondo De Amicis",
+      "slug": "nhung-tam-long-cao-ca",
+      "cover": "assets/covers/nhung-tam-long-cao-ca.jpg",
+      "category": "🌟 Rồng & Nếp",
+      "source": "Cuore – Edmondo De Amicis (bản kể lại: Boss)",
+      "description": "Cuốn nhật ký của cậu bé Enrico suốt một năm học: tình bạn, lòng trắc ẩn, biết ơn thầy cô và hiếu thảo với ba mẹ. Kinh điển về những tấm lòng cao cả. Kể riêng cho Rồng & Nếp, mỗi chương khoảng 2 phút.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Cuốn nhật ký của Enrico",
+          "file": "audio/nhung-tam-long-cao-ca/chuong-1-nhat-ky.mp3",
+          "script": "content/nhung-tam-long-cao-ca/chuong-1-nhat-ky.txt",
+          "duration_secs": 98
+        },
+        {
+          "n": 2,
+          "title": "Người bạn nghèo",
+          "file": "audio/nhung-tam-long-cao-ca/chuong-2-ban-ngheo.mp3",
+          "script": "content/nhung-tam-long-cao-ca/chuong-2-ban-ngheo.txt",
+          "duration_secs": 90
+        },
+        {
+          "n": 3,
+          "title": "Người thầy đáng kính",
+          "file": "audio/nhung-tam-long-cao-ca/chuong-3-nguoi-thay.mp3",
+          "script": "content/nhung-tam-long-cao-ca/chuong-3-nguoi-thay.txt",
+          "duration_secs": 90
+        },
+        {
+          "n": 4,
+          "title": "Người bạn dũng cảm",
+          "file": "audio/nhung-tam-long-cao-ca/chuong-4-ban-dung-cam.mp3",
+          "script": "content/nhung-tam-long-cao-ca/chuong-4-ban-dung-cam.txt",
+          "duration_secs": 95
+        },
+        {
+          "n": 5,
+          "title": "Gia đình là số một",
+          "file": "audio/nhung-tam-long-cao-ca/chuong-5-gia-dinh.mp3",
+          "script": "content/nhung-tam-long-cao-ca/chuong-5-gia-dinh.txt",
+          "duration_secs": 102
+        },
+        {
+          "n": 6,
+          "title": "Tấm lòng quanh ta",
+          "file": "audio/nhung-tam-long-cao-ca/chuong-6-tam-long-quanh-ta.mp3",
+          "script": "content/nhung-tam-long-cao-ca/chuong-6-tam-long-quanh-ta.txt",
+          "duration_secs": 92
+        }
+      ]
+    },
+    {
+      "title": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh",
+      "author": "Nguyễn Nhật Ánh",
+      "slug": "hoa-vang-co-xanh",
+      "cover": "assets/covers/hoa-vang-co-xanh.jpg",
+      "category": "🌟 Rồng & Nếp",
+      "source": "Tôi Thấy Hoa Vàng Trên Cỏ Xanh – Nguyễn Nhật Ánh (bản kể lại: Boss)",
+      "description": "Câu chuyện trong veo về hai anh em Thiều và Tường: tuổi thơ, trò chơi, giận hờn và tình anh em không gì thay thế được. Kể riêng cho Rồng & Nếp, mỗi chương khoảng 2 phút.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Hai anh em nhà nọ",
+          "file": "audio/hoa-vang-co-xanh/chuong-1-hai-anh-em.mp3",
+          "script": "content/hoa-vang-co-xanh/chuong-1-hai-anh-em.txt",
+          "duration_secs": 91
+        },
+        {
+          "n": 2,
+          "title": "Trò chơi tuổi thơ",
+          "file": "audio/hoa-vang-co-xanh/chuong-2-tro-choi.mp3",
+          "script": "content/hoa-vang-co-xanh/chuong-2-tro-choi.txt",
+          "duration_secs": 93
+        },
+        {
+          "n": 3,
+          "title": "Khi anh hai biết lỗi",
+          "file": "audio/hoa-vang-co-xanh/chuong-3-anh-hai-biet-loi.mp3",
+          "script": "content/hoa-vang-co-xanh/chuong-3-anh-hai-biet-loi.txt",
+          "duration_secs": 88
+        },
+        {
+          "n": 4,
+          "title": "Mùa hè cuối cùng",
+          "file": "audio/hoa-vang-co-xanh/chuong-4-mua-he-cuoi.mp3",
+          "script": "content/hoa-vang-co-xanh/chuong-4-mua-he-cuoi.txt",
+          "duration_secs": 94
+        },
+        {
+          "n": 5,
+          "title": "Hoa vàng trên cỏ xanh",
+          "file": "audio/hoa-vang-co-xanh/chuong-5-hoa-vang.mp3",
+          "script": "content/hoa-vang-co-xanh/chuong-5-hoa-vang.txt",
+          "duration_secs": 91
+        },
+        {
+          "n": 6,
+          "title": "Giữ tuổi thơ trong tim",
+          "file": "audio/hoa-vang-co-xanh/chuong-6-giu-tuoi-tho.mp3",
+          "script": "content/hoa-vang-co-xanh/chuong-6-giu-tuoi-tho.txt",
+          "duration_secs": 82
+        }
+      ]
+    },
+    {
+      "title": "Chuyện Con Mèo Dạy Hải Âu Bay",
+      "author": "Luis Sepúlveda",
+      "slug": "meo-day-hai-au-bay",
+      "cover": "assets/covers/meo-day-hai-au-bay.jpg",
+      "category": "🌟 Rồng & Nếp",
+      "source": "Chuyện Con Mèo Dạy Hải Âu Bay – Luis Sepúlveda (bản kể lại: Boss)",
+      "description": "Chú mèo Zorba giữ lời hứa với hải âu mẹ: ấp trứng, nuôi nấng và dạy hải âu con biết bay. Câu chuyện cảm động về lời hứa, tình yêu thương và dũng cảm. Kể riêng cho Rồng & Nếp, mỗi chương khoảng 2 phút.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Lời hứa với hải âu mẹ",
+          "file": "audio/meo-day-hai-au-bay/chuong-1-loi-hua.mp3",
+          "script": "content/meo-day-hai-au-bay/chuong-1-loi-hua.txt",
+          "duration_secs": 162
+        },
+        {
+          "n": 2,
+          "title": "Chăm quả trứng",
+          "file": "audio/meo-day-hai-au-bay/chuong-2-cham-trung.mp3",
+          "script": "content/meo-day-hai-au-bay/chuong-2-cham-trung.txt",
+          "duration_secs": 96
+        },
+        {
+          "n": 3,
+          "title": "Khác biệt thật đáng yêu",
+          "file": "audio/meo-day-hai-au-bay/chuong-3-khac-biet.mp3",
+          "script": "content/meo-day-hai-au-bay/chuong-3-khac-biet.txt",
+          "duration_secs": 97
+        },
+        {
+          "n": 4,
+          "title": "Tập bay",
+          "file": "audio/meo-day-hai-au-bay/chuong-4-tap-bay.mp3",
+          "script": "content/meo-day-hai-au-bay/chuong-4-tap-bay.txt",
+          "duration_secs": 93
+        },
+        {
+          "n": 5,
+          "title": "Đêm mưa bão",
+          "file": "audio/meo-day-hai-au-bay/chuong-5-dem-mua-bao.mp3",
+          "script": "content/meo-day-hai-au-bay/chuong-5-dem-mua-bao.txt",
+          "duration_secs": 94
+        },
+        {
+          "n": 6,
+          "title": "Bay cao nhé, Lucky",
+          "file": "audio/meo-day-hai-au-bay/chuong-6-bay-cao.mp3",
+          "script": "content/meo-day-hai-au-bay/chuong-6-bay-cao.txt",
+          "duration_secs": 92
+        }
+      ]
+    },
+    {
+      "title": "Harry Potter và Hòn Đá Phù Thủy",
+      "author": "J.K. Rowling",
+      "slug": "harry-potter-1",
+      "cover": "assets/covers/harry-potter-1.jpg",
+      "category": "🌟 Rồng & Nếp",
+      "source": "Harry Potter and the Philosopher's Stone – J.K. Rowling (bản tóm tắt & diễn giải: Boss)",
+      "description": "Cậu bé phù thủy Harry Potter và năm học đầu tiên ở Hogwarts: tình bạn, những bài học phép thuật và thử thách bảo vệ hòn đá phù thủy. Kể riêng cho Rồng & Nếp, mỗi chương khoảng 2 phút.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Cậu bé dưới gầm cầu thang",
+          "file": "audio/harry-potter-1/chuong-1-gam-cau-thang.mp3",
+          "script": "content/harry-potter-1/chuong-1-gam-cau-thang.txt",
+          "duration_secs": 128
+        },
+        {
+          "n": 2,
+          "title": "Bức thư từ Hogwarts",
+          "file": "audio/harry-potter-1/chuong-2-thu-hogwarts.mp3",
+          "script": "content/harry-potter-1/chuong-2-thu-hogwarts.txt",
+          "duration_secs": 130
+        },
+        {
+          "n": 3,
+          "title": "Tình bạn đầu tiên",
+          "file": "audio/harry-potter-1/chuong-3-tinh-ban.mp3",
+          "script": "content/harry-potter-1/chuong-3-tinh-ban.txt",
+          "duration_secs": 131
+        },
+        {
+          "n": 4,
+          "title": "Những bài học phép thuật",
+          "file": "audio/harry-potter-1/chuong-4-phep-thuat.mp3",
+          "script": "content/harry-potter-1/chuong-4-phep-thuat.txt",
+          "duration_secs": 91
+        },
+        {
+          "n": 5,
+          "title": "Thử thách cuối cùng",
+          "file": "audio/harry-potter-1/chuong-5-thu-thach.mp3",
+          "script": "content/harry-potter-1/chuong-5-thu-thach.txt",
+          "duration_secs": 126
+        },
+        {
+          "n": 6,
+          "title": "Phép thuật mạnh nhất",
+          "file": "audio/harry-potter-1/chuong-6-phep-thuat-manh-nhat.mp3",
+          "script": "content/harry-potter-1/chuong-6-phep-thuat-manh-nhat.txt",
+          "duration_secs": 121
+        }
+      ]
     }
   ]
 }
