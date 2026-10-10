@@ -711,35 +711,35 @@
           "title": "Mục tiêu rõ ràng",
           "file": "audio/toi-tai-gioi-ban-cung-the/chuong-2-muc-tieu.mp3",
           "script": "content/toi-tai-gioi-ban-cung-the/chuong-2-muc-tieu.txt",
-          "duration_secs": 99
+          "duration_secs": 105
         },
         {
           "n": 3,
           "title": "Học bằng sơ đồ tư duy",
           "file": "audio/toi-tai-gioi-ban-cung-the/chuong-3-so-do-tu-duy.mp3",
           "script": "content/toi-tai-gioi-ban-cung-the/chuong-3-so-do-tu-duy.txt",
-          "duration_secs": 87
+          "duration_secs": 92
         },
         {
           "n": 4,
           "title": "Trí nhớ siêu đẳng",
           "file": "audio/toi-tai-gioi-ban-cung-the/chuong-4-tri-nho.mp3",
           "script": "content/toi-tai-gioi-ban-cung-the/chuong-4-tri-nho.txt",
-          "duration_secs": 103
+          "duration_secs": 101
         },
         {
           "n": 5,
           "title": "Tập trung và kỷ luật",
           "file": "audio/toi-tai-gioi-ban-cung-the/chuong-5-tap-trung.mp3",
           "script": "content/toi-tai-gioi-ban-cung-the/chuong-5-tap-trung.txt",
-          "duration_secs": 98
+          "duration_secs": 100
         },
         {
           "n": 6,
           "title": "Kiên trì, tự lập và thói quen tốt",
           "file": "audio/toi-tai-gioi-ban-cung-the/chuong-6-kien-tri-thoi-quen.mp3",
           "script": "content/toi-tai-gioi-ban-cung-the/chuong-6-kien-tri-thoi-quen.txt",
-          "duration_secs": 143
+          "duration_secs": 140
         }
       ]
     }
