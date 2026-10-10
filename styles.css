@@ -204,3 +204,7 @@ button{font-family:inherit;cursor:pointer}
 .mark-actions{display:flex;flex-direction:column;gap:8px}
 .mark-play{width:52px;height:52px;border-radius:50%;background:var(--gold);color:#1a1206;border:none;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
 .mark-del{background:none;border:1px solid var(--border);color:var(--muted);border-radius:50%;width:40px;height:40px;font-size:1rem}
+.kids-banner{display:flex;gap:14px;align-items:center;padding:16px 18px;border-radius:16px;margin:14px 0 4px;border:1px solid rgba(255,200,80,.35);background:linear-gradient(135deg,rgba(255,190,60,.14),rgba(255,120,60,.08))}
+.kids-banner-emoji{font-size:2rem;line-height:1}
+.kids-banner b{font-size:1.05rem}
+.kids-banner p{margin:4px 0 0;color:var(--muted);font-size:.92rem}

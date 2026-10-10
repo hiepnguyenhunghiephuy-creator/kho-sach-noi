@@ -3,7 +3,7 @@
 
 const LS_KEY = 'kho-sach-noi-progress-v1';
 const MARKS_KEY = 'kho-sach-noi-marks-v1';
-const CATEGORIES = ['Tất cả', 'Động lực', 'Kinh doanh', 'Kỹ năng', 'Tiếng Anh'];
+const CATEGORIES = ['Tất cả', '🌟 Rồng & Nếp', 'Động lực', 'Kinh doanh', 'Kỹ năng', 'Tiếng Anh'];
 const SPEEDS = [0.75, 1, 1.25, 1.5, 1.75, 2];
 
 const state = {
@@ -74,6 +74,7 @@ function renderChips() {
   $('chips').querySelectorAll('.chip').forEach((el) =>
     el.addEventListener('click', () => { state.filter = el.dataset.cat; renderChips(); renderGrid(); })
   );
+  $('kids-banner').hidden = state.filter !== '🌟 Rồng & Nếp';
 }
 
 function filteredBooks() {
