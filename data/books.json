@@ -742,6 +742,271 @@
           "duration_secs": 140
         }
       ]
+    },
+    {
+      "title": "7 Thói Quen Của Bạn Trẻ Thành Đạt",
+      "author": "Sean Covey",
+      "slug": "bay-thoi-quen-ban-tre",
+      "cover": "assets/covers/bay-thoi-quen-ban-tre.jpg",
+      "category": "Động lực",
+      "source": "The 7 Habits of Highly Effective Teens – Sean Covey (bản tóm tắt & diễn giải: Boss)",
+      "description": "Bảy thói quen vàng cho tuổi trẻ: sống chủ động, bắt đầu với đích đến, việc quan trọng trước, tư duy cùng thắng, lắng nghe, sức mạnh đồng đội và mài cưa mỗi ngày. Kể riêng cho Rồng & Nếp, mỗi chương khoảng 2 phút.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Sống chủ động",
+          "file": "audio/bay-thoi-quen-ban-tre/chuong-1-chu-dong.mp3",
+          "script": "content/bay-thoi-quen-ban-tre/chuong-1-chu-dong.txt",
+          "duration_secs": 98
+        },
+        {
+          "n": 2,
+          "title": "Bắt đầu với đích đến trong đầu",
+          "file": "audio/bay-thoi-quen-ban-tre/chuong-2-dich-den.mp3",
+          "script": "content/bay-thoi-quen-ban-tre/chuong-2-dich-den.txt",
+          "duration_secs": 94
+        },
+        {
+          "n": 3,
+          "title": "Việc quan trọng trước",
+          "file": "audio/bay-thoi-quen-ban-tre/chuong-3-uu-tien.mp3",
+          "script": "content/bay-thoi-quen-ban-tre/chuong-3-uu-tien.txt",
+          "duration_secs": 98
+        },
+        {
+          "n": 4,
+          "title": "Cùng thắng",
+          "file": "audio/bay-thoi-quen-ban-tre/chuong-4-cung-thang.mp3",
+          "script": "content/bay-thoi-quen-ban-tre/chuong-4-cung-thang.txt",
+          "duration_secs": 95
+        },
+        {
+          "n": 5,
+          "title": "Lắng nghe và đồng đội",
+          "file": "audio/bay-thoi-quen-ban-tre/chuong-5-lang-nghe.mp3",
+          "script": "content/bay-thoi-quen-ban-tre/chuong-5-lang-nghe.txt",
+          "duration_secs": 100
+        },
+        {
+          "n": 6,
+          "title": "Mài cưa mỗi ngày",
+          "file": "audio/bay-thoi-quen-ban-tre/chuong-6-mai-cua.mp3",
+          "script": "content/bay-thoi-quen-ban-tre/chuong-6-mai-cua.txt",
+          "duration_secs": 114
+        }
+      ]
+    },
+    {
+      "title": "Ai Lấy Miếng Pho Mát Của Tôi?",
+      "author": "Spencer Johnson",
+      "slug": "ai-lay-mieng-pho-mat",
+      "cover": "assets/covers/ai-lay-mieng-pho-mat.jpg",
+      "category": "Động lực",
+      "source": "Who Moved My Cheese? – Spencer Johnson (bản tóm tắt & diễn giải: Boss)",
+      "description": "Câu chuyện ngụ ngôn nổi tiếng về bốn nhân vật trong mê cung: khi pho mát biến mất, ai sẽ than thở và ai sẽ lên đường? Bài học về thay đổi, dũng cảm và thích nghi. Kể riêng cho Rồng & Nếp, mỗi chương khoảng 2 phút.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Bốn nhân vật trong mê cung",
+          "file": "audio/ai-lay-mieng-pho-mat/chuong-1-bon-nhan-vat.mp3",
+          "script": "content/ai-lay-mieng-pho-mat/chuong-1-bon-nhan-vat.txt",
+          "duration_secs": 85
+        },
+        {
+          "n": 2,
+          "title": "Khi pho mát biến mất",
+          "file": "audio/ai-lay-mieng-pho-mat/chuong-2-pho-mat-bien-mat.mp3",
+          "script": "content/ai-lay-mieng-pho-mat/chuong-2-pho-mat-bien-mat.txt",
+          "duration_secs": 104
+        },
+        {
+          "n": 3,
+          "title": "Vượt qua nỗi sợ",
+          "file": "audio/ai-lay-mieng-pho-mat/chuong-3-vuot-noi-so.mp3",
+          "script": "content/ai-lay-mieng-pho-mat/chuong-3-vuot-noi-so.txt",
+          "duration_secs": 106
+        },
+        {
+          "n": 4,
+          "title": "Những bài học trên tường",
+          "file": "audio/ai-lay-mieng-pho-mat/chuong-4-bai-hoc-tren-tuong.mp3",
+          "script": "content/ai-lay-mieng-pho-mat/chuong-4-bai-hoc-tren-tuong.txt",
+          "duration_secs": 101
+        },
+        {
+          "n": 5,
+          "title": "Kho pho mát mới",
+          "file": "audio/ai-lay-mieng-pho-mat/chuong-5-kho-moi.mp3",
+          "script": "content/ai-lay-mieng-pho-mat/chuong-5-kho-moi.txt",
+          "duration_secs": 101
+        },
+        {
+          "n": 6,
+          "title": "Đừng bao giờ thành Chậm Chạp",
+          "file": "audio/ai-lay-mieng-pho-mat/chuong-6-dung-thanh-cham-chap.mp3",
+          "script": "content/ai-lay-mieng-pho-mat/chuong-6-dung-thanh-cham-chap.txt",
+          "duration_secs": 91
+        }
+      ]
+    },
+    {
+      "title": "Hạt Giống Tâm Hồn",
+      "author": "Nhiều tác giả",
+      "slug": "hat-giong-tam-hon",
+      "cover": "assets/covers/hat-giong-tam-hon.jpg",
+      "category": "Động lực",
+      "source": "Chicken Soup for the Soul (tuyển chọn & kể lại: Boss)",
+      "description": "Tuyển tập sáu câu chuyện ngắn có thật, thấm đẫm tình người: lòng tốt, kiên trì như cây tre, dám ước mơ, tình bạn đẹp, lòng biết ơn và dũng cảm bước qua cầu. Kể riêng cho Rồng & Nếp, mỗi chương khoảng 2 phút.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Sức mạnh của lòng tốt",
+          "file": "audio/hat-giong-tam-hon/chuong-1-long-tot.mp3",
+          "script": "content/hat-giong-tam-hon/chuong-1-long-tot.txt",
+          "duration_secs": 106
+        },
+        {
+          "n": 2,
+          "title": "Kiên trì như cây tre",
+          "file": "audio/hat-giong-tam-hon/chuong-2-kien-tri.mp3",
+          "script": "content/hat-giong-tam-hon/chuong-2-kien-tri.txt",
+          "duration_secs": 104
+        },
+        {
+          "n": 3,
+          "title": "Dám ước mơ lớn",
+          "file": "audio/hat-giong-tam-hon/chuong-3-uoc-mo.mp3",
+          "script": "content/hat-giong-tam-hon/chuong-3-uoc-mo.txt",
+          "duration_secs": 112
+        },
+        {
+          "n": 4,
+          "title": "Tình bạn và tình anh em",
+          "file": "audio/hat-giong-tam-hon/chuong-4-tinh-ban.mp3",
+          "script": "content/hat-giong-tam-hon/chuong-4-tinh-ban.txt",
+          "duration_secs": 103
+        },
+        {
+          "n": 5,
+          "title": "Lòng biết ơn",
+          "file": "audio/hat-giong-tam-hon/chuong-5-biet-on.mp3",
+          "script": "content/hat-giong-tam-hon/chuong-5-biet-on.txt",
+          "duration_secs": 94
+        },
+        {
+          "n": 6,
+          "title": "Dũng cảm bước qua cầu",
+          "file": "audio/hat-giong-tam-hon/chuong-6-dung-cam.mp3",
+          "script": "content/hat-giong-tam-hon/chuong-6-dung-cam.txt",
+          "duration_secs": 118
+        }
+      ]
+    },
+    {
+      "title": "Quà Tặng Diệu Kỳ",
+      "author": "Spencer Johnson",
+      "slug": "qua-tang-dieu-ky",
+      "cover": "assets/covers/qua-tang-dieu-ky.jpg",
+      "category": "Động lực",
+      "source": "The Present – Spencer Johnson (bản tóm tắt & diễn giải: Boss)",
+      "description": "Câu chuyện cậu bé và ông già bí ẩn với món quà diệu kỳ: học từ quá khứ, lên kế hoạch cho tương lai, và sống trọn vẹn hiện tại. Kể riêng cho Rồng & Nếp, mỗi chương khoảng 2 phút.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Món quà bí ẩn",
+          "file": "audio/qua-tang-dieu-ky/chuong-1-mon-qua-bi-an.mp3",
+          "script": "content/qua-tang-dieu-ky/chuong-1-mon-qua-bi-an.txt",
+          "duration_secs": 91
+        },
+        {
+          "n": 2,
+          "title": "Học từ quá khứ",
+          "file": "audio/qua-tang-dieu-ky/chuong-2-qua-khu.mp3",
+          "script": "content/qua-tang-dieu-ky/chuong-2-qua-khu.txt",
+          "duration_secs": 97
+        },
+        {
+          "n": 3,
+          "title": "Lên kế hoạch cho tương lai",
+          "file": "audio/qua-tang-dieu-ky/chuong-3-tuong-lai.mp3",
+          "script": "content/qua-tang-dieu-ky/chuong-3-tuong-lai.txt",
+          "duration_secs": 94
+        },
+        {
+          "n": 4,
+          "title": "Món quà là hiện tại",
+          "file": "audio/qua-tang-dieu-ky/chuong-4-hien-tai.mp3",
+          "script": "content/qua-tang-dieu-ky/chuong-4-hien-tai.txt",
+          "duration_secs": 101
+        },
+        {
+          "n": 5,
+          "title": "Món quà trong việc học",
+          "file": "audio/qua-tang-dieu-ky/chuong-5-hoc-tap.mp3",
+          "script": "content/qua-tang-dieu-ky/chuong-5-hoc-tap.txt",
+          "duration_secs": 105
+        },
+        {
+          "n": 6,
+          "title": "Trao món quà cho người khác",
+          "file": "audio/qua-tang-dieu-ky/chuong-6-trao-qua.mp3",
+          "script": "content/qua-tang-dieu-ky/chuong-6-trao-qua.txt",
+          "duration_secs": 96
+        }
+      ]
+    },
+    {
+      "title": "Dế Mèn Phiêu Lưu Ký",
+      "author": "Tô Hoài",
+      "slug": "de-men-phieu-luu-ky",
+      "cover": "assets/covers/de-men-phieu-luu-ky.jpg",
+      "category": "Thiếu nhi",
+      "source": "Dế Mèn Phiêu Lưu Ký – Tô Hoài (bản kể lại: Boss)",
+      "description": "Hành trình trưởng thành của chú dế mèn: từ kiêu căng đến khiêm tốn, từ bồng bột đến bản lĩnh, qua bao cuộc phiêu lưu và những người bạn mới. Kinh điển thiếu nhi Việt Nam. Kể riêng cho Rồng & Nếp, mỗi chương khoảng 2 phút.",
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Chàng dế kiêu căng",
+          "file": "audio/de-men-phieu-luu-ky/chuong-1-de-kieu-cang.mp3",
+          "script": "content/de-men-phieu-luu-ky/chuong-1-de-kieu-cang.txt",
+          "duration_secs": 95
+        },
+        {
+          "n": 2,
+          "title": "Bài học đắt giá",
+          "file": "audio/de-men-phieu-luu-ky/chuong-2-bai-hoc-dat-gia.mp3",
+          "script": "content/de-men-phieu-luu-ky/chuong-2-bai-hoc-dat-gia.txt",
+          "duration_secs": 105
+        },
+        {
+          "n": 3,
+          "title": "Lên đường phiêu lưu",
+          "file": "audio/de-men-phieu-luu-ky/chuong-3-len-duong.mp3",
+          "script": "content/de-men-phieu-luu-ky/chuong-3-len-duong.txt",
+          "duration_secs": 102
+        },
+        {
+          "n": 4,
+          "title": "Những người bạn mới",
+          "file": "audio/de-men-phieu-luu-ky/chuong-4-ban-moi.mp3",
+          "script": "content/de-men-phieu-luu-ky/chuong-4-ban-moi.txt",
+          "duration_secs": 99
+        },
+        {
+          "n": 5,
+          "title": "Bài học lớn nhất",
+          "file": "audio/de-men-phieu-luu-ky/chuong-5-truong-thanh.mp3",
+          "script": "content/de-men-phieu-luu-ky/chuong-5-truong-thanh.txt",
+          "duration_secs": 104
+        },
+        {
+          "n": 6,
+          "title": "Trở về quê hương",
+          "file": "audio/de-men-phieu-luu-ky/chuong-6-tro-ve.mp3",
+          "script": "content/de-men-phieu-luu-ky/chuong-6-tro-ve.txt",
+          "duration_secs": 125
+        }
+      ]
     }
   ]
 }
